@@ -1,24 +1,24 @@
 --- !omap
-- out_manifest: ! 'e32d433c369dd6e919ce87c0bea60684a2d3a4b2f40dfcd42663f247d777ab0a  bitcoin-0.14.1-win-unsigned.tar.gz
+- out_manifest: ! 'e32d433c369dd6e919ce87c0bea60684a2d3a4b2f40dfcd42663f247d777ab0a  aixcoin-0.14.1-win-unsigned.tar.gz
 
-    0fad9fbe15b15ef3ff8c756237dd704632e8c7585a68f5063d96b78f269684e2  bitcoin-0.14.1-win32-debug.zip
+    0fad9fbe15b15ef3ff8c756237dd704632e8c7585a68f5063d96b78f269684e2  aixcoin-0.14.1-win32-debug.zip
 
-    fc3bd95882affab0e96c8d9c5b01271eff7a77bf1b42bffa93170185ab5de352  bitcoin-0.14.1-win32-setup-unsigned.exe
+    fc3bd95882affab0e96c8d9c5b01271eff7a77bf1b42bffa93170185ab5de352  aixcoin-0.14.1-win32-setup-unsigned.exe
 
-    44cdd1a41713337b1bee969baca7e7be0724f8adbe87f249b06d19e87c6f8d58  bitcoin-0.14.1-win32.zip
+    44cdd1a41713337b1bee969baca7e7be0724f8adbe87f249b06d19e87c6f8d58  aixcoin-0.14.1-win32.zip
 
-    e6517376fdf60debce5df7834ab82100e8dda9bf384e97591653467058b08820  bitcoin-0.14.1-win64-debug.zip
+    e6517376fdf60debce5df7834ab82100e8dda9bf384e97591653467058b08820  aixcoin-0.14.1-win64-debug.zip
 
-    085a170514982db7a1740a840c14aa5970987c29273d637d8c7c095fb7a709b5  bitcoin-0.14.1-win64-setup-unsigned.exe
+    085a170514982db7a1740a840c14aa5970987c29273d637d8c7c095fb7a709b5  aixcoin-0.14.1-win64-setup-unsigned.exe
 
-    b21037a3a471b9e561c7b407bc699f6978b87da579d4c1623f94f7a94c584661  bitcoin-0.14.1-win64.zip
+    b21037a3a471b9e561c7b407bc699f6978b87da579d4c1623f94f7a94c584661  aixcoin-0.14.1-win64.zip
 
-    4af2b051f6d9c04b127f94563270f3d7eb083d13abd92456931ce6d393fc5397  src/bitcoin-0.14.1.tar.gz
+    4af2b051f6d9c04b127f94563270f3d7eb083d13abd92456931ce6d393fc5397  src/aixcoin-0.14.1.tar.gz
 
 '
-- in_manifest: ! 'e0194d205e60a81bc415071387884133442f678dc434ceaa2ef0037bfd0e7ca0  bitcoin-win-0.14-desc.yml
+- in_manifest: ! 'e0194d205e60a81bc415071387884133442f678dc434ceaa2ef0037bfd0e7ca0  aixcoin-win-0.14-desc.yml
 
-    git:33fadc20bae4828788d6d82c582c457adc6941e1 bitcoin'
+    git:33fadc20bae4828788d6d82c582c457adc6941e1 aixcoin'
 - base_manifests: !omap
   - trusty-amd64: ! '1461ce364a68db36190a6981ad9e3889c8a5286e809e45c6e34a720905de46a4  adduser_3.113+nmu3ubuntu3_all.deb
 
@@ -1250,6 +1250,6 @@
 
 '
 - release: 0.14.1rc2-win-unsigned
-- name: bitcoin-win-0.14
+- name: aixcoin-win-0.14
 - type: build
 - optionals: 

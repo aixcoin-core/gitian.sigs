@@ -1,14 +1,14 @@
 --- !omap
 - out_manifest: |
-    51be75f17d32b569e0b07282d550fbf2ff42c9c15adb89141420a56750edb024  bitcoin-0.11.0-win-unsigned.tar.gz
-    6c5269e721348b49b891ce40ba393fd8bd4d8e66d6c66433c2dd09f1a48dc162  bitcoin-0.11.0-win32-setup-unsigned.exe
-    62dedc212d52d16ef1d108c4bd4e8e666178fe1121aeace02d46f5358932b50c  bitcoin-0.11.0-win32.zip
-    b61a0e8e17945707a51e5ba6cda03251e30f4d73ca3ac1082e214900e6db8f8e  bitcoin-0.11.0-win64-setup-unsigned.exe
-    d83375034c96a9dfba7387ea2a6f3a05a64b63714db46f3dbfc434c8a814ec59  bitcoin-0.11.0-win64.zip
-    31afaa249a97d95d31119bd23a00d934584662ac3f483c7e8e6e2cb02fb6e8a0  src/bitcoin-0.11.0.tar.gz
+    51be75f17d32b569e0b07282d550fbf2ff42c9c15adb89141420a56750edb024  aixcoin-0.11.0-win-unsigned.tar.gz
+    6c5269e721348b49b891ce40ba393fd8bd4d8e66d6c66433c2dd09f1a48dc162  aixcoin-0.11.0-win32-setup-unsigned.exe
+    62dedc212d52d16ef1d108c4bd4e8e666178fe1121aeace02d46f5358932b50c  aixcoin-0.11.0-win32.zip
+    b61a0e8e17945707a51e5ba6cda03251e30f4d73ca3ac1082e214900e6db8f8e  aixcoin-0.11.0-win64-setup-unsigned.exe
+    d83375034c96a9dfba7387ea2a6f3a05a64b63714db46f3dbfc434c8a814ec59  aixcoin-0.11.0-win64.zip
+    31afaa249a97d95d31119bd23a00d934584662ac3f483c7e8e6e2cb02fb6e8a0  src/aixcoin-0.11.0.tar.gz
 - in_manifest: |-
-    8ad41bd8a9f4f45470173d0c648cb81265dd7e9a896deb919e84616c44253bdc  bitcoin-win-0.11-desc.yml
-    git:d7d87a1db1b90094a0dd517b89ef1c40eaedf14c bitcoin
+    8ad41bd8a9f4f45470173d0c648cb81265dd7e9a896deb919e84616c44253bdc  aixcoin-win-0.11-desc.yml
+    git:d7d87a1db1b90094a0dd517b89ef1c40eaedf14c aixcoin
 - base_manifests: !omap
   - precise-amd64: |
       edf7640c085c66dbe776314f4d3f91512a27ca0be45f233a9b5666f9c7f8cce0  adduser_3.113ubuntu2_all.deb
@@ -523,6 +523,6 @@
     4ceba5f5068d88e56bfcff56c432b4acebe9e12b7bfa364e833ef563257d45d3  x86_64-w64-mingw32/qt/qt-5.5.0-1ba937d14a1.tar.gz
     19b358d643351bc28716b775caf3e728490d07e585e0a38f40c9ce19fc2bb00f  x86_64-w64-mingw32/qt/qt-5.5.0-1ba937d14a1.tar.gz.hash
 - release: 0.11.1rc1-win-unsigned
-- name: bitcoin-win-0.11
+- name: aixcoin-win-0.11
 - type: build
 - optionals: 

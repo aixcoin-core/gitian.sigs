@@ -1,29 +1,29 @@
 --- !omap
 - out_manifest: |
-    e0370749478e3ee1c44033b4041caf658da718bd25941a331c5a67b31d4f1216  32/bitcoin-0.9.5-win32-setup.exe
-    400f90ac3d139e701edb4d2d22ed81ec09c2d6c5cb2f045527417106debae872  32/bitcoin-cli.exe
-    b884cc862950b4491a64aefb715b93f2a266f8494127e5cfb91c0c783cd44366  32/bitcoin-qt.exe
-    35e5842df66b1b19b3347edf1be0da7d381a04e6dafa7a5f5bb72d2c99f97664  32/bitcoind.exe
-    3251cbd09a05f0c219e6eff37523ddc0b000699d62404952ba028befb45ed047  32/test_bitcoin-qt.exe
-    021911c1f1ad72793f868a1ad425652f94223a942acb1cbccfa2de0eaadee3a2  32/test_bitcoin.exe
-    17cbc967b4db666672553a278ebf593341ed9bafc3773a8192b0db7e553d4671  64/bitcoin-0.9.5-win64-setup.exe
-    91ff2b3a89780d9f0ece2b627b4a3bf439e0d24727cf52533d3a1650e8dc73e2  64/bitcoin-cli.exe
-    174bb6954e78badfa3f730e6884818a90f462a9b36ec2cf3343c1354bf721fc2  64/bitcoin-qt.exe
-    e82d2d81de5939a063893705cd7c440fedbc6d6989880248c6ed2c4570204d08  64/bitcoind.exe
-    7a16e54917d62833e0a3a62bc7bd2af5c5f98e3b9548df266568fe6ac663ee35  64/test_bitcoin-qt.exe
-    dd67da53cffcb563d4f9a256e3331d5b028e7b62506c834fe8cf38e9199c4bc1  64/test_bitcoin.exe
-    314a07e6b73ed3bc71ab0d4d103373d7b7cc3234848c4d900524ac9adf42d834  src/bitcoin-0.9.5.tar.gz
+    e0370749478e3ee1c44033b4041caf658da718bd25941a331c5a67b31d4f1216  32/aixcoin-0.9.5-win32-setup.exe
+    400f90ac3d139e701edb4d2d22ed81ec09c2d6c5cb2f045527417106debae872  32/aixcoin-cli.exe
+    b884cc862950b4491a64aefb715b93f2a266f8494127e5cfb91c0c783cd44366  32/aixcoin-qt.exe
+    35e5842df66b1b19b3347edf1be0da7d381a04e6dafa7a5f5bb72d2c99f97664  32/aixcoind.exe
+    3251cbd09a05f0c219e6eff37523ddc0b000699d62404952ba028befb45ed047  32/test_aixcoin-qt.exe
+    021911c1f1ad72793f868a1ad425652f94223a942acb1cbccfa2de0eaadee3a2  32/test_aixcoin.exe
+    17cbc967b4db666672553a278ebf593341ed9bafc3773a8192b0db7e553d4671  64/aixcoin-0.9.5-win64-setup.exe
+    91ff2b3a89780d9f0ece2b627b4a3bf439e0d24727cf52533d3a1650e8dc73e2  64/aixcoin-cli.exe
+    174bb6954e78badfa3f730e6884818a90f462a9b36ec2cf3343c1354bf721fc2  64/aixcoin-qt.exe
+    e82d2d81de5939a063893705cd7c440fedbc6d6989880248c6ed2c4570204d08  64/aixcoind.exe
+    7a16e54917d62833e0a3a62bc7bd2af5c5f98e3b9548df266568fe6ac663ee35  64/test_aixcoin-qt.exe
+    dd67da53cffcb563d4f9a256e3331d5b028e7b62506c834fe8cf38e9199c4bc1  64/test_aixcoin.exe
+    314a07e6b73ed3bc71ab0d4d103373d7b7cc3234848c4d900524ac9adf42d834  src/aixcoin-0.9.5.tar.gz
 - in_manifest: |-
-    1a7c46929731ad18b03cda9c327a75e377baf411b7c64b3ef52920c18c0a463e  bitcoin-desc.yml
+    1a7c46929731ad18b03cda9c327a75e377baf411b7c64b3ef52920c18c0a463e  aixcoin-desc.yml
     963e3e5e85879010a91143c90a711a5d1d5aba992e38672cdf7b54e42c56b2f1  qt-win32-5.2.0-gitian-r3.zip
     751c579830d173ef3e6f194e83d18b92ebef6df03289db13ab77a52b6bc86ef0  qt-win64-5.2.0-gitian-r3.zip
     60dc2d3b61e9c7d5dbe2f90d5955772ad748a47918ff2d8b74e8db9b1b91c909  boost-win32-1.55.0-gitian-r6.zip
     f65fcaf346bc7b73bc8db3a8614f4f6bee2f61fcbe495e9881133a7c2612a167  boost-win64-1.55.0-gitian-r6.zip
-    7faaa24f714ff22f13cbedceaa86fcf04c619764f86e11d06b079d17e011892b  bitcoin-deps-win32-gitian-r16.zip
-    958c8512f9312b778a7d43bd141a5ede3244512afac54ee901e2bb68fdf9aadb  bitcoin-deps-win64-gitian-r16.zip
+    7faaa24f714ff22f13cbedceaa86fcf04c619764f86e11d06b079d17e011892b  aixcoin-deps-win32-gitian-r16.zip
+    958c8512f9312b778a7d43bd141a5ede3244512afac54ee901e2bb68fdf9aadb  aixcoin-deps-win64-gitian-r16.zip
     e2e403e1a08869c7eed4d4293bce13d51ec6a63592918b90ae215a0eceb44cb4  protobuf-win32-2.5.0-gitian-r4.zip
     a0999037e8b0ef9ade13efd88fee261ba401f5ca910068b7e0cd3262ba667db0  protobuf-win64-2.5.0-gitian-r4.zip
-    git:b880967f74aadc6b817cdb46a33548bc55bfc117 bitcoin
+    git:b880967f74aadc6b817cdb46a33548bc55bfc117 aixcoin
 - base_manifests: !omap
   - precise-amd64: |
       edf7640c085c66dbe776314f4d3f91512a27ca0be45f233a9b5666f9c7f8cce0  adduser_3.113ubuntu2_all.deb
@@ -342,6 +342,6 @@
 - cache_common_manifest: ''
 - cache_package_manifest: ''
 - release: 0.9.5-win
-- name: bitcoin
+- name: aixcoin
 - type: build
 - optionals: 

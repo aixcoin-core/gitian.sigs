@@ -1,17 +1,17 @@
 --- !!omap
 - out_manifest: |
-    274e25a8ebb551beb092b42026a618d09f6991992fba2156eff202e1cb3d3178  bitcoin-0.21.0rc2-aarch64-linux-gnu-debug.tar.gz
-    45055aa63ae62848273d0e17303f7a852855ee550147c430d090c6deb751f0a8  bitcoin-0.21.0rc2-aarch64-linux-gnu.tar.gz
-    b3c681649ee09673fae0e1723adc43e6c294dff8b9024902d42157f235fbf484  bitcoin-0.21.0rc2-arm-linux-gnueabihf-debug.tar.gz
-    22120c5a3befed80ee713b50f528f4a523f1cd05b71f0b20292714fe227ecbae  bitcoin-0.21.0rc2-arm-linux-gnueabihf.tar.gz
-    5556a2829dd286b22a837dda6268398c8e92bbd58500045bb8b783f168f22b2b  bitcoin-0.21.0rc2-riscv64-linux-gnu-debug.tar.gz
-    6eefcf423b83875c2ca9c0262c6f0766ec91bddaef1790625b612e9b2bb73358  bitcoin-0.21.0rc2-riscv64-linux-gnu.tar.gz
-    117b63e97f368500c463d32255e6b0c3474eb5f4b0e5e263a5405ad669d24101  bitcoin-0.21.0rc2-x86_64-linux-gnu-debug.tar.gz
-    8fe08cd05bc76446c2fa9ad90d7029c85db6413316408b3fb83ef19cc8f2a2a6  bitcoin-0.21.0rc2-x86_64-linux-gnu.tar.gz
-    ad2d87ebd1d54dc1e7a2a0cc76adf4a116dd5f9a9ca3889a2485ed90ae287773  src/bitcoin-0.21.0rc2.tar.gz
+    274e25a8ebb551beb092b42026a618d09f6991992fba2156eff202e1cb3d3178  aixcoin-0.21.0rc2-aarch64-linux-gnu-debug.tar.gz
+    45055aa63ae62848273d0e17303f7a852855ee550147c430d090c6deb751f0a8  aixcoin-0.21.0rc2-aarch64-linux-gnu.tar.gz
+    b3c681649ee09673fae0e1723adc43e6c294dff8b9024902d42157f235fbf484  aixcoin-0.21.0rc2-arm-linux-gnueabihf-debug.tar.gz
+    22120c5a3befed80ee713b50f528f4a523f1cd05b71f0b20292714fe227ecbae  aixcoin-0.21.0rc2-arm-linux-gnueabihf.tar.gz
+    5556a2829dd286b22a837dda6268398c8e92bbd58500045bb8b783f168f22b2b  aixcoin-0.21.0rc2-riscv64-linux-gnu-debug.tar.gz
+    6eefcf423b83875c2ca9c0262c6f0766ec91bddaef1790625b612e9b2bb73358  aixcoin-0.21.0rc2-riscv64-linux-gnu.tar.gz
+    117b63e97f368500c463d32255e6b0c3474eb5f4b0e5e263a5405ad669d24101  aixcoin-0.21.0rc2-x86_64-linux-gnu-debug.tar.gz
+    8fe08cd05bc76446c2fa9ad90d7029c85db6413316408b3fb83ef19cc8f2a2a6  aixcoin-0.21.0rc2-x86_64-linux-gnu.tar.gz
+    ad2d87ebd1d54dc1e7a2a0cc76adf4a116dd5f9a9ca3889a2485ed90ae287773  src/aixcoin-0.21.0rc2.tar.gz
 - in_manifest: |-
-    6fa795f605c0ae27cc8599714279f7f2d5043e9e781f7b1c69c5521476b87537  bitcoin-core-linux-0.21-desc.yml
-    git:7264bcd20f700ecc88734cb77f2d18f849dcd856 bitcoin
+    6fa795f605c0ae27cc8599714279f7f2d5043e9e781f7b1c69c5521476b87537  aixcoin-core-linux-0.21-desc.yml
+    git:7264bcd20f700ecc88734cb77f2d18f849dcd856 aixcoin
 - base_manifests: !!omap
   - bionic-amd64: |
       d451eb00b2d0e2940e26028ea9f2fb1be4f5109010e997acfb2c46229ebd9ebe  adduser_3.116ubuntu1_all.deb
@@ -478,6 +478,6 @@
     a079571271cb814367971009b49b93fdda2c00101dab58f121ad235bde7b1731  x86_64-linux-gnu/zlib/zlib-1.2.11-0f602b0dcdf.tar.gz
     70d47a170a9ef7e04bc2548c349054f905bdd14250d55a27e3a58c28bdb690a3  x86_64-linux-gnu/zlib/zlib-1.2.11-0f602b0dcdf.tar.gz.hash
 - release: 0.21.0rc2-linux
-- name: bitcoin-core-linux-0.21
+- name: aixcoin-core-linux-0.21
 - type: build
 - optionals:

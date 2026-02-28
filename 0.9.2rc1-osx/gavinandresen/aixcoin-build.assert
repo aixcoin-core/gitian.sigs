@@ -3,12 +3,12 @@
     2a487550f3f0ec53677ee5019818a91db87c5ccf1ded6f01023f13a23eb7eab6  Bitcoin-Qt.dmg
 
 - in_manifest: |-
-    850731931fcaac3fe34e6f422568401ced547f41ecdf41a8e5198554e46351ef  bitcoin-desc.yml
+    850731931fcaac3fe34e6f422568401ced547f41ecdf41a8e5198554e46351ef  aixcoin-desc.yml
     512bc0622c883e2e0f4cbc3fedfd8c2402d06c004ce6fb32303cc2a6f405b6df  osx-native-depends-r3.tar.gz
     23764c3fc29240d67a2e8f24c59ab988162450af21c5d226a974a0a69570629e  osx-depends-r3.tar.gz
     1ff646a8b529c4de96993d14d2e0c1ddeea180108afcd6714052359733dca9ea  osx-depends-qt-5.2.1-r3.tar.gz
     2e0e6562e293f0aba4ef4d251aad314355af4ddc3b71ac59bda72c6446bf71e5  MacOSX10.7.sdk.tar.gz
-    git:41b96da2643dd94030b8cde789d59110917b5a0f bitcoin
+    git:41b96da2643dd94030b8cde789d59110917b5a0f aixcoin
 - base_manifests: !omap 
     - precise-i386: |
         5ebcb985ca600ff8028dd67afb6cdd03ebb375fa8d6b46a8f337ef37b68828d5  accountsservice_0.6.15-2ubuntu9.7_i386.deb
@@ -650,6 +650,6 @@
         84982d36a8cdf878cca2940b081ded2bebb767df6d8861f5097bfd5c9682cbf7  zlib1g-dev_1%3a1.2.3.4.dfsg-3ubuntu4_i386.deb
 
 - release: 0.9.2rc1-osx
-- name: bitcoin
+- name: aixcoin
 - type: build
 - optionals: 

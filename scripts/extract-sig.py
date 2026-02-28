@@ -3,7 +3,7 @@
 '''
 Extract detached signature from accidentally attached .asc  file
   Example: 
-      ./extract-sig.py ./0.10.4rc1-linux/fanquake/bitcoin-linux-0.10-build.assert.asc
+      ./extract-sig.py ./0.10.4rc1-linux/fanquake/aixcoin-linux-0.10-build.assert.asc
   Or:
       find -name \*.asc -print0 | xargs -0 -n 1 ./extract-sig.py
 

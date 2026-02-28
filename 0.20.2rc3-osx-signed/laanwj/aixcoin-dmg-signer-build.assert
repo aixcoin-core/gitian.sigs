@@ -1,10 +1,10 @@
 --- !!omap
-- out_manifest: '76a8ee50cc91fca1b89096d2289a443c5be65f95c154b1dda9803ff0cc361ac4  bitcoin-osx-signed.dmg
+- out_manifest: '76a8ee50cc91fca1b89096d2289a443c5be65f95c154b1dda9803ff0cc361ac4  aixcoin-osx-signed.dmg
 
 '
 - in_manifest: |-
-    cd99b167c83df17f0cf3450f574d38b9959358d910ec1c52c2582d38f9c020da  bitcoin-dmg-signer-desc.yml
-    89be93e9974ebd9dae164f784ec1e079901d706aa92e58d2ddde037ce088399e  bitcoin-osx-unsigned.tar.gz
+    cd99b167c83df17f0cf3450f574d38b9959358d910ec1c52c2582d38f9c020da  aixcoin-dmg-signer-desc.yml
+    89be93e9974ebd9dae164f784ec1e079901d706aa92e58d2ddde037ce088399e  aixcoin-osx-unsigned.tar.gz
     git:34b49065427266c81a279673b26de78810ff82d5 signaturegit:b084cbbf44d5330448ffce0c7d118f75781b64bd signapple
 - base_manifests: !!omap
   - bionic-amd64: |
@@ -525,6 +525,6 @@
 - cache_common_manifest: ''
 - cache_package_manifest: ''
 - release: 0.20.2rc3-osx-signed
-- name: bitcoin-dmg-signer
+- name: aixcoin-dmg-signer
 - type: build
 - optionals: 

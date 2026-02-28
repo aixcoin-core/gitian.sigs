@@ -1,13 +1,13 @@
 --- !!omap
 - out_manifest: |
-    24b57fc6ccf6d08f376af24dee3eeb2f303afc5e606cd004fa06adff18eb3f2d  bitcoin-0.15.0-osx-unsigned.dmg
-    1e07dedce633c9cafced8a1327b7560e727ad5aa0a271dfe56fe6f7852f984ec  bitcoin-0.15.0-osx-unsigned.tar.gz
-    23a36e28295ef05faf67d41be0610d5f5f1059d904aa74efca7a6700a82d6dc2  bitcoin-0.15.0-osx64.tar.gz
-    b57e9e756018e4082f5557a4216195b0cd197c5a62473b6fe0509a0aa71e519b  src/bitcoin-0.15.0.tar.gz
+    24b57fc6ccf6d08f376af24dee3eeb2f303afc5e606cd004fa06adff18eb3f2d  aixcoin-0.15.0-osx-unsigned.dmg
+    1e07dedce633c9cafced8a1327b7560e727ad5aa0a271dfe56fe6f7852f984ec  aixcoin-0.15.0-osx-unsigned.tar.gz
+    23a36e28295ef05faf67d41be0610d5f5f1059d904aa74efca7a6700a82d6dc2  aixcoin-0.15.0-osx64.tar.gz
+    b57e9e756018e4082f5557a4216195b0cd197c5a62473b6fe0509a0aa71e519b  src/aixcoin-0.15.0.tar.gz
 - in_manifest: |-
-    a910f052d4aeaaa688f7ac3890184cc60c19d583d458a37dfb890497c2d2a97b  bitcoin-osx-0.15-desc.yml
+    a910f052d4aeaaa688f7ac3890184cc60c19d583d458a37dfb890497c2d2a97b  aixcoin-osx-0.15-desc.yml
     9f950cd715b58b0ae002ec47bf2fe7ed76857d4f7b0b3520ae2820082b3e41ce  MacOSX10.11.sdk.tar.gz
-    git:fb7b5293844ea6adc5dcf5ad0a0c5890b4495939 bitcoin
+    git:fb7b5293844ea6adc5dcf5ad0a0c5890b4495939 aixcoin
 - base_manifests: !!omap
   - trusty-amd64: |
       1461ce364a68db36190a6981ad9e3889c8a5286e809e45c6e34a720905de46a4  adduser_3.113+nmu3ubuntu3_all.deb
@@ -579,6 +579,6 @@
     d3bea0d2a3ecf0ad0407ca0f285ba516fe123563912e12ed83536358420b07a6  x86_64-apple-darwin11/zlib/zlib-1.2.11-c8500f6295c.tar.gz
     133b446f8bac3acf74e613f647fffb5ef9d34ba923c603e2e15f367c8e2a7ca1  x86_64-apple-darwin11/zlib/zlib-1.2.11-c8500f6295c.tar.gz.hash
 - release: 0.15.0.1-osx-unsigned
-- name: bitcoin-osx-0.15
+- name: aixcoin-osx-0.15
 - type: build
 - optionals: 

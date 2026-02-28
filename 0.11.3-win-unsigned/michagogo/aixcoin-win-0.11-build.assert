@@ -1,20 +1,20 @@
 --- !omap
-- out_manifest: ! '0086471939005453fca5efd32431e8d7453a38c0e6d26a69759f4169e44cbd1c  bitcoin-0.11.3-win-unsigned.tar.gz
+- out_manifest: ! '0086471939005453fca5efd32431e8d7453a38c0e6d26a69759f4169e44cbd1c  aixcoin-0.11.3-win-unsigned.tar.gz
 
-    f7839b586cf74c9f7a0df7a6d4bc33d746d8014cf83189199dafe720e076aca9  bitcoin-0.11.3-win32-setup-unsigned.exe
+    f7839b586cf74c9f7a0df7a6d4bc33d746d8014cf83189199dafe720e076aca9  aixcoin-0.11.3-win32-setup-unsigned.exe
 
-    449e693c76380203f877adcbd958a1a4f5afddcf2405209792a2eeed38b2c196  bitcoin-0.11.3-win32.zip
+    449e693c76380203f877adcbd958a1a4f5afddcf2405209792a2eeed38b2c196  aixcoin-0.11.3-win32.zip
 
-    5df779ef852a9f5fda042fcfb707ac8a3f127bccf0f4055ad9ba46db6f89723a  bitcoin-0.11.3-win64-setup-unsigned.exe
+    5df779ef852a9f5fda042fcfb707ac8a3f127bccf0f4055ad9ba46db6f89723a  aixcoin-0.11.3-win64-setup-unsigned.exe
 
-    2133266f26107f9792380e01fc026adaab1096774fbf51461a0f96d583d50093  bitcoin-0.11.3-win64.zip
+    2133266f26107f9792380e01fc026adaab1096774fbf51461a0f96d583d50093  aixcoin-0.11.3-win64.zip
 
-    91aa14d5d8335881dd2dcf6bce7a4db60cf86ac38ba1c1cf969da24b2cb649b6  src/bitcoin-0.11.3.tar.gz
+    91aa14d5d8335881dd2dcf6bce7a4db60cf86ac38ba1c1cf969da24b2cb649b6  src/aixcoin-0.11.3.tar.gz
 
 '
-- in_manifest: ! 'e651cd2325d9d75dd8b64f7fcdbb996fe1341d5de49ea4c11b7c0f81da15c10f  bitcoin-win-0.11-desc.yml
+- in_manifest: ! 'e651cd2325d9d75dd8b64f7fcdbb996fe1341d5de49ea4c11b7c0f81da15c10f  aixcoin-win-0.11-desc.yml
 
-    git:0bace8307995ac2911885c7c8b8dec19b864eaa3 bitcoin'
+    git:0bace8307995ac2911885c7c8b8dec19b864eaa3 aixcoin'
 - base_manifests: !omap
   - precise-amd64: ! 'edf7640c085c66dbe776314f4d3f91512a27ca0be45f233a9b5666f9c7f8cce0  adduser_3.113ubuntu2_all.deb
 
@@ -1512,6 +1512,6 @@
 
 '
 - release: 0.11.3-win-unsigned
-- name: bitcoin-win-0.11
+- name: aixcoin-win-0.11
 - type: build
 - optionals: 

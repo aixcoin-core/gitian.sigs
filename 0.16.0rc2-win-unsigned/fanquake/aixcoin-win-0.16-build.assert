@@ -1,16 +1,16 @@
 --- !!omap
 - out_manifest: |
-    fe0a1c71054b73a23edefb3221decf7076881ef3884c7a1128c87afb282bd7de  bitcoin-0.16.0-win-unsigned.tar.gz
-    cd224d51700afbf97f2fe19633125e4ccaf39e46d699ba5030cc3a603e3e3ad4  bitcoin-0.16.0-win32-debug.zip
-    9e08835da229f3a3f87ae52f828ac37ae015ae23e6ed9cc429001893414e72e7  bitcoin-0.16.0-win32-setup-unsigned.exe
-    3ef0f0b980d7a4b7105af9b106a22ce58ffafdb8ec1d9c9c5f711461215913ff  bitcoin-0.16.0-win32.zip
-    ad7a42f4ac46c576cb2604f4e216516060ed7dd0e38de4591eab1d1775df6cd4  bitcoin-0.16.0-win64-debug.zip
-    fd2bdcc3d51df3233044e765df96e54cfdb939af7eccb2e56fce696c0f5621c1  bitcoin-0.16.0-win64-setup-unsigned.exe
-    75832fb451d540b5a108c9fc79e24c33043987920821ec3ee61c78a816a24975  bitcoin-0.16.0-win64.zip
-    c2a5abeb9613ebe5f59d517c466ed36636a3050edcafb01e24e7f8fe8cbcf257  src/bitcoin-0.16.0.tar.gz
+    fe0a1c71054b73a23edefb3221decf7076881ef3884c7a1128c87afb282bd7de  aixcoin-0.16.0-win-unsigned.tar.gz
+    cd224d51700afbf97f2fe19633125e4ccaf39e46d699ba5030cc3a603e3e3ad4  aixcoin-0.16.0-win32-debug.zip
+    9e08835da229f3a3f87ae52f828ac37ae015ae23e6ed9cc429001893414e72e7  aixcoin-0.16.0-win32-setup-unsigned.exe
+    3ef0f0b980d7a4b7105af9b106a22ce58ffafdb8ec1d9c9c5f711461215913ff  aixcoin-0.16.0-win32.zip
+    ad7a42f4ac46c576cb2604f4e216516060ed7dd0e38de4591eab1d1775df6cd4  aixcoin-0.16.0-win64-debug.zip
+    fd2bdcc3d51df3233044e765df96e54cfdb939af7eccb2e56fce696c0f5621c1  aixcoin-0.16.0-win64-setup-unsigned.exe
+    75832fb451d540b5a108c9fc79e24c33043987920821ec3ee61c78a816a24975  aixcoin-0.16.0-win64.zip
+    c2a5abeb9613ebe5f59d517c466ed36636a3050edcafb01e24e7f8fe8cbcf257  src/aixcoin-0.16.0.tar.gz
 - in_manifest: |-
-    6202e6f504a638234aa37f690eba9a007c164d4aae4231d3ef2df95e1fe7c507  bitcoin-win-0.16-desc.yml
-    git:f17942a3bc810d981724228bb5c99b5fb572efbe bitcoin
+    6202e6f504a638234aa37f690eba9a007c164d4aae4231d3ef2df95e1fe7c507  aixcoin-win-0.16-desc.yml
+    git:f17942a3bc810d981724228bb5c99b5fb572efbe aixcoin
 - base_manifests: !!omap
   - trusty-amd64: |
       1461ce364a68db36190a6981ad9e3889c8a5286e809e45c6e34a720905de46a4  adduser_3.113+nmu3ubuntu3_all.deb
@@ -640,6 +640,6 @@
     2337e83b74002fbdd72b96704c1c37869e2374f71bfd79f3c279f26eb5ce0f35  x86_64-w64-mingw32/zlib/zlib-1.2.11-90861196018.tar.gz
     9615a40d309c3b87c4af08b3cb5435f97b85d52df8ddb57eac9011721d8edd2a  x86_64-w64-mingw32/zlib/zlib-1.2.11-90861196018.tar.gz.hash
 - release: 0.16.0rc2-win-unsigned
-- name: bitcoin-win-0.16
+- name: aixcoin-win-0.16
 - type: build
 - optionals: 

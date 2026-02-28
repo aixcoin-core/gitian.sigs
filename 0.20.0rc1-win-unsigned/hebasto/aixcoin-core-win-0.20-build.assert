@@ -1,13 +1,13 @@
 --- !!omap
 - out_manifest: |
-    2fe4f0224e4d5712a55d506f17e846fbcbc1e2080a783178d1ab8d5868fb5646  bitcoin-0.20.0rc1-win-unsigned.tar.gz
-    e5953cc32a74b057d4e6a3a816b8d4ba87c40cde93e16019746caf4274cbcef5  bitcoin-0.20.0rc1-win64-debug.zip
-    fd4bf6a5b19d037cd2c1c0c80adf0430ae0ebbc8408f9bdaa5b4a29fe9aa7aed  bitcoin-0.20.0rc1-win64-setup-unsigned.exe
-    2d2c33730fb2682838a6f143e0bc040d9ef22e2301e58656d5a3de659bdb7f6a  bitcoin-0.20.0rc1-win64.zip
-    dc858ec19537f45b4e6e1869f970a86218489acadc31f04c68a700c23124b001  src/bitcoin-0.20.0rc1.tar.gz
+    2fe4f0224e4d5712a55d506f17e846fbcbc1e2080a783178d1ab8d5868fb5646  aixcoin-0.20.0rc1-win-unsigned.tar.gz
+    e5953cc32a74b057d4e6a3a816b8d4ba87c40cde93e16019746caf4274cbcef5  aixcoin-0.20.0rc1-win64-debug.zip
+    fd4bf6a5b19d037cd2c1c0c80adf0430ae0ebbc8408f9bdaa5b4a29fe9aa7aed  aixcoin-0.20.0rc1-win64-setup-unsigned.exe
+    2d2c33730fb2682838a6f143e0bc040d9ef22e2301e58656d5a3de659bdb7f6a  aixcoin-0.20.0rc1-win64.zip
+    dc858ec19537f45b4e6e1869f970a86218489acadc31f04c68a700c23124b001  src/aixcoin-0.20.0rc1.tar.gz
 - in_manifest: |-
-    58a84e7bd77128e8789e82bdbf037cfe3401d482b3f24c9106fae6b1303fda00  bitcoin-core-win-0.20-desc.yml
-    git:cd1f5bf1db26801a6c266ea1237734ca5ba2c64c bitcoin
+    58a84e7bd77128e8789e82bdbf037cfe3401d482b3f24c9106fae6b1303fda00  aixcoin-core-win-0.20-desc.yml
+    git:cd1f5bf1db26801a6c266ea1237734ca5ba2c64c aixcoin
 - base_manifests: !!omap
   - bionic-amd64: |
       d451eb00b2d0e2940e26028ea9f2fb1be4f5109010e997acfb2c46229ebd9ebe  adduser_3.116ubuntu1_all.deb
@@ -430,6 +430,6 @@
     79f756e65ca2a247eef656f5e88b70fcea5eeba40d6b826ed8a97415097e9e79  x86_64-w64-mingw32/zlib/zlib-1.2.11-abc2d84ca3a.tar.gz
     4aa7178bc3ca8297092bca099110f8f30b9f160eb59646bff96b7d3cff96847b  x86_64-w64-mingw32/zlib/zlib-1.2.11-abc2d84ca3a.tar.gz.hash
 - release: 0.20.0rc1-win-unsigned
-- name: bitcoin-core-win-0.20
+- name: aixcoin-core-win-0.20
 - type: build
 - optionals: 

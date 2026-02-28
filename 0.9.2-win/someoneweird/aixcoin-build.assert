@@ -1,32 +1,32 @@
 --- !omap
-- out_manifest: ! 'b7a1c94c02fb04249dcc704284174f4d7fcb4a435da5e46eb19855b6a06af2e8  32/bitcoin-0.9.2-win32-setup.exe
+- out_manifest: ! 'b7a1c94c02fb04249dcc704284174f4d7fcb4a435da5e46eb19855b6a06af2e8  32/aixcoin-0.9.2-win32-setup.exe
 
-    caae215722fcfe8f0ba57a7176b4b522f07670575247473dd42a898a8c348d16  32/bitcoin-cli.exe
+    caae215722fcfe8f0ba57a7176b4b522f07670575247473dd42a898a8c348d16  32/aixcoin-cli.exe
 
-    2ff1b04866c3744f3ad574f02d6d3fd042bb2e89a7cc776c538fd541a88861d4  32/bitcoin-qt.exe
+    2ff1b04866c3744f3ad574f02d6d3fd042bb2e89a7cc776c538fd541a88861d4  32/aixcoin-qt.exe
 
-    3043266f0379f3efb92cab785c260b4124814d5050858f4e95399f88ab81d0f4  32/bitcoind.exe
+    3043266f0379f3efb92cab785c260b4124814d5050858f4e95399f88ab81d0f4  32/aixcoind.exe
 
-    e52c6edf3ac912868b3cc2f4d8fa10c9318e1b99f37daf8357c9b07a88c134a9  32/test_bitcoin-qt.exe
+    e52c6edf3ac912868b3cc2f4d8fa10c9318e1b99f37daf8357c9b07a88c134a9  32/test_aixcoin-qt.exe
 
-    062eb438c0ebeec6ccb6670c12815f584592a31a70e637e66b7750fea9f7d8b8  32/test_bitcoin.exe
+    062eb438c0ebeec6ccb6670c12815f584592a31a70e637e66b7750fea9f7d8b8  32/test_aixcoin.exe
 
-    bbf54948260ba36e835a02c04a1fc25fc49a81715dad4f3afccd85f8cc554c85  64/bitcoin-0.9.2-win64-setup.exe
+    bbf54948260ba36e835a02c04a1fc25fc49a81715dad4f3afccd85f8cc554c85  64/aixcoin-0.9.2-win64-setup.exe
 
-    971d26cfa933bb69a8442a6318ea4c65ccbc48b307ce61df27c7bca422eb1d79  64/bitcoin-cli.exe
+    971d26cfa933bb69a8442a6318ea4c65ccbc48b307ce61df27c7bca422eb1d79  64/aixcoin-cli.exe
 
-    3d10aa4b2d271fdd98b7dc3edb2ef73c5cc5642797001374f19aa3210c70d056  64/bitcoin-qt.exe
+    3d10aa4b2d271fdd98b7dc3edb2ef73c5cc5642797001374f19aa3210c70d056  64/aixcoin-qt.exe
 
-    defd70a6de10bc11fd87a4167902f6087819a3b645e276fe9450ff6318a93e66  64/bitcoind.exe
+    defd70a6de10bc11fd87a4167902f6087819a3b645e276fe9450ff6318a93e66  64/aixcoind.exe
 
-    d687609f649239e3794334059497be24b874157d7f85d107f43c5a541dbe0dbb  64/test_bitcoin-qt.exe
+    d687609f649239e3794334059497be24b874157d7f85d107f43c5a541dbe0dbb  64/test_aixcoin-qt.exe
 
-    932e4f1a1b2b15e7d73f65681643724870b81786583b97de4c21ea9b4c7a6311  64/test_bitcoin.exe
+    932e4f1a1b2b15e7d73f65681643724870b81786583b97de4c21ea9b4c7a6311  64/test_aixcoin.exe
 
-    44251848131a3d515f1568bbd5bcd7d163ee2b4dad03c7c1d3ca3950c710d7ac  src/bitcoin-0.9.2.tar.gz
+    44251848131a3d515f1568bbd5bcd7d163ee2b4dad03c7c1d3ca3950c710d7ac  src/aixcoin-0.9.2.tar.gz
 
 '
-- in_manifest: ! '26a35505712dd9ffe45a4a1518042b2d7b46a3236188657d7d421cf266059256  bitcoin-desc.yml
+- in_manifest: ! '26a35505712dd9ffe45a4a1518042b2d7b46a3236188657d7d421cf266059256  aixcoin-desc.yml
 
     963e3e5e85879010a91143c90a711a5d1d5aba992e38672cdf7b54e42c56b2f1  qt-win32-5.2.0-gitian-r3.zip
 
@@ -36,15 +36,15 @@
 
     f65fcaf346bc7b73bc8db3a8614f4f6bee2f61fcbe495e9881133a7c2612a167  boost-win64-1.55.0-gitian-r6.zip
 
-    70de248cd0dd7e7476194129e818402e974ca9c5751cbf591644dc9f332d3b59  bitcoin-deps-win32-gitian-r13.zip
+    70de248cd0dd7e7476194129e818402e974ca9c5751cbf591644dc9f332d3b59  aixcoin-deps-win32-gitian-r13.zip
 
-    9eace4c76f639f4f3580a478eee4f50246e1bbb5ccdcf37a158261a5a3fa3e65  bitcoin-deps-win64-gitian-r13.zip
+    9eace4c76f639f4f3580a478eee4f50246e1bbb5ccdcf37a158261a5a3fa3e65  aixcoin-deps-win64-gitian-r13.zip
 
     e2e403e1a08869c7eed4d4293bce13d51ec6a63592918b90ae215a0eceb44cb4  protobuf-win32-2.5.0-gitian-r4.zip
 
     a0999037e8b0ef9ade13efd88fee261ba401f5ca910068b7e0cd3262ba667db0  protobuf-win64-2.5.0-gitian-r4.zip
 
-    git:505681f234685f2e17f1ebdbd8ba96eb061f1794 bitcoin'
+    git:505681f234685f2e17f1ebdbd8ba96eb061f1794 aixcoin'
 - base_manifests: !omap
   - precise-amd64: ! 'edf7640c085c66dbe776314f4d3f91512a27ca0be45f233a9b5666f9c7f8cce0  adduser_3.113ubuntu2_all.deb
 
@@ -614,6 +614,6 @@
 
 '
 - release: 0.9.2-win
-- name: bitcoin
+- name: aixcoin
 - type: build
 - optionals: 

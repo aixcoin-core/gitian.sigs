@@ -1,16 +1,16 @@
 --- !!omap
 - out_manifest: |
-    c0815f8116f31f515cf569e811f8926b2634738ef637c1f3889cf23c2a96a9d8  bitcoin-0.17.0-win-unsigned.tar.gz
-    ab49075654c8f55deedb832dcc1a76aaccb88146690521e02e0bd6e0b6398ea7  bitcoin-0.17.0-win32-debug.zip
-    8b842cf561bf4c7c89bdf99ba9c87d1194d8b50676381b7b1d50853ac553b05d  bitcoin-0.17.0-win32-setup-unsigned.exe
-    6bbcd9cc2609789b007737393be32e4850142ecee39746906fec3e69da03ea7e  bitcoin-0.17.0-win32.zip
-    4457ff18eb853172c107ee3dfe1f8b91911db06fbd16ff941dd3bfc1c771d8d7  bitcoin-0.17.0-win64-debug.zip
-    80afc4e7891ca0d3dc110e9786f4e1518b7b8ac6b6a9d70de9df464e17d91af9  bitcoin-0.17.0-win64-setup-unsigned.exe
-    05586b10ee9a94a5522fcbe3a8f305f6844569b39ebc67ae4db5c1f2adaf2f1c  bitcoin-0.17.0-win64.zip
-    9ddaaf6f24bf41a449dcf7653bc47ff834c6748f11031371f9ab8e3997cd960e  src/bitcoin-0.17.0.tar.gz
+    c0815f8116f31f515cf569e811f8926b2634738ef637c1f3889cf23c2a96a9d8  aixcoin-0.17.0-win-unsigned.tar.gz
+    ab49075654c8f55deedb832dcc1a76aaccb88146690521e02e0bd6e0b6398ea7  aixcoin-0.17.0-win32-debug.zip
+    8b842cf561bf4c7c89bdf99ba9c87d1194d8b50676381b7b1d50853ac553b05d  aixcoin-0.17.0-win32-setup-unsigned.exe
+    6bbcd9cc2609789b007737393be32e4850142ecee39746906fec3e69da03ea7e  aixcoin-0.17.0-win32.zip
+    4457ff18eb853172c107ee3dfe1f8b91911db06fbd16ff941dd3bfc1c771d8d7  aixcoin-0.17.0-win64-debug.zip
+    80afc4e7891ca0d3dc110e9786f4e1518b7b8ac6b6a9d70de9df464e17d91af9  aixcoin-0.17.0-win64-setup-unsigned.exe
+    05586b10ee9a94a5522fcbe3a8f305f6844569b39ebc67ae4db5c1f2adaf2f1c  aixcoin-0.17.0-win64.zip
+    9ddaaf6f24bf41a449dcf7653bc47ff834c6748f11031371f9ab8e3997cd960e  src/aixcoin-0.17.0.tar.gz
 - in_manifest: |-
-    eb61d6074a920d13c8abacc2559bc6fce4c42ec9b14584b3e08d091384be2e3b  bitcoin-win-0.17-desc.yml
-    git:3d827bee699abffe61d99099d9f7e813b4acc2a5 bitcoin
+    eb61d6074a920d13c8abacc2559bc6fce4c42ec9b14584b3e08d091384be2e3b  aixcoin-win-0.17-desc.yml
+    git:3d827bee699abffe61d99099d9f7e813b4acc2a5 aixcoin
 - base_manifests: !!omap
   - bionic-amd64: |
       d0b11d1d27fe425bc91ea51fab74ad45e428753796f0392e446e8b2450293255  accountsservice_0.6.45-1ubuntu1_amd64.deb
@@ -867,50 +867,50 @@
     c3e5e9fdd5004dcb542feda5ee4f0ff0744628baf8ed2dd5d66f8ca1197cb1a1  zlib-1.2.11.tar.gz
     4ff941449631ace0d4d203e3483be9dbc9da454084111f97ea0a2114e19bf066  zlib-1.2.11.tar.xz
 - cache_package_manifest: |
-    fa26706a6596249a8a3dfc60d8ccf58b8cc68c3f62e40457f29ac0d571af3779  bitcoin-win-0.17/i686-w64-mingw32/bdb/bdb-4.8.30-e322a932df1.tar.gz
-    a84e2be001a37b72aad39a84090b9f7f1a58f073729cb5ed06229275ec145b88  bitcoin-win-0.17/i686-w64-mingw32/bdb/bdb-4.8.30-e322a932df1.tar.gz.hash
-    f4c50dcf96e0ae47d3078f1036e81602a8f8c04ccf9705c6cd16a56345aaddaf  bitcoin-win-0.17/i686-w64-mingw32/boost/boost-1_64_0-6a436d58d5b.tar.gz
-    89e24860e044b6a98b605fae0337bb71cb93e6a7b00f3689f82bf8aee943c6d2  bitcoin-win-0.17/i686-w64-mingw32/boost/boost-1_64_0-6a436d58d5b.tar.gz.hash
-    eb166c3d66a3e3b9d25dfaf07b899d88944bd703fbb837e20a81a958e77a0898  bitcoin-win-0.17/i686-w64-mingw32/libevent/libevent-2.1.8-stable-4694656d108.tar.gz
-    f29f8e2807c40d756c63bb4ef9f2f4cf59e4c38f87f71b637ff7cbfe0cecac07  bitcoin-win-0.17/i686-w64-mingw32/libevent/libevent-2.1.8-stable-4694656d108.tar.gz.hash
-    0ff03ddb55a2b47051607ab76e8daf29b40b48daa1ef6fb094779aa0bbf5d065  bitcoin-win-0.17/i686-w64-mingw32/miniupnpc/miniupnpc-2.0.20180203-aac94944602.tar.gz
-    eca44a46e084d3640f149c9136f30cfd46dfb4ef14dc686ef94a75aad5732afc  bitcoin-win-0.17/i686-w64-mingw32/miniupnpc/miniupnpc-2.0.20180203-aac94944602.tar.gz.hash
-    2e9470d685312f5bac831d5ace9dadce8dd3487c471a0a5b11cb0dc1f0588892  bitcoin-win-0.17/i686-w64-mingw32/native_protobuf/native_protobuf-2.6.1-8c34d678f21.tar.gz
-    e4a8f9c86ac44984d555ed47958455657bd3cff96c31223536addbbc6b46a111  bitcoin-win-0.17/i686-w64-mingw32/native_protobuf/native_protobuf-2.6.1-8c34d678f21.tar.gz.hash
-    e9a872c6804bba344e2710a2a259d89238166e7914a168259608b9725c4322c9  bitcoin-win-0.17/i686-w64-mingw32/openssl/openssl-1.0.1k-93a7e63af19.tar.gz
-    70a851d58953acb6a1d62e962c1f4a286d3c4e55bc52ffd415c67ba24e34fce0  bitcoin-win-0.17/i686-w64-mingw32/openssl/openssl-1.0.1k-93a7e63af19.tar.gz.hash
-    144faa9b2b85e2015066089360162542dfd363ca5eb636578f8f809b434a782d  bitcoin-win-0.17/i686-w64-mingw32/protobuf/protobuf-2.6.1-aa9617bedda.tar.gz
-    7d7e638c55d853caa7d98e9f25491ebb8c4c4795953f00ce32dbaf3def43e6db  bitcoin-win-0.17/i686-w64-mingw32/protobuf/protobuf-2.6.1-aa9617bedda.tar.gz.hash
-    c7c90ba2324be087a4d5d2b30137d1d659dcb4b066e939820b040be26e405de9  bitcoin-win-0.17/i686-w64-mingw32/qrencode/qrencode-3.4.4-d43ab7b076f.tar.gz
-    e4cce04026b89d7394c1fb86382950ffb76f7638a49d7772274b7010417835c0  bitcoin-win-0.17/i686-w64-mingw32/qrencode/qrencode-3.4.4-d43ab7b076f.tar.gz.hash
-    fd39aae9c234be4c6435bb2bb8362c3d41ebc96d0fb1d1c3bf14c45e8c7421e7  bitcoin-win-0.17/i686-w64-mingw32/qt/qt-5.9.6-55f60dab80e.tar.gz
-    229286dd623949a48e26fea61b7aedcd92003176f867cb25ac88547227bef042  bitcoin-win-0.17/i686-w64-mingw32/qt/qt-5.9.6-55f60dab80e.tar.gz.hash
-    1f8ba6c6245dda125e216c3c57919f8c2b88918b30091c96f105e3628727fcc0  bitcoin-win-0.17/i686-w64-mingw32/zeromq/zeromq-4.2.3-0c5743f98b2.tar.gz
-    6f3b1610d79e8128f0fb1c6fa33511c01e02ec2f1931fbcb6d34192644b1bbd2  bitcoin-win-0.17/i686-w64-mingw32/zeromq/zeromq-4.2.3-0c5743f98b2.tar.gz.hash
-    ea279477c41a7addb9228e29597eeaa2edec82089724ef9c30efd42099821978  bitcoin-win-0.17/i686-w64-mingw32/zlib/zlib-1.2.11-cd2adad0bfe.tar.gz
-    c254063272264bf6d30ee40c78eb25f0aa2f33ff902a05e040a6f77fd3b0eeaa  bitcoin-win-0.17/i686-w64-mingw32/zlib/zlib-1.2.11-cd2adad0bfe.tar.gz.hash
-    a36cb35559324b6e41aa61674cf957e9e9867b7a7f8f89cf11245619aae70c9a  bitcoin-win-0.17/x86_64-w64-mingw32/bdb/bdb-4.8.30-61b95a952f9.tar.gz
-    2eb093a42fda2c3a1af2cc7bec1f15fbf789e8a2eeab4c14ae3ecfedf0252e91  bitcoin-win-0.17/x86_64-w64-mingw32/bdb/bdb-4.8.30-61b95a952f9.tar.gz.hash
-    2e57c969bc9f9745340c6e48f1b2a75049927f98b073fe5793a27cbb85eaa42d  bitcoin-win-0.17/x86_64-w64-mingw32/boost/boost-1_64_0-b464eb18dc2.tar.gz
-    bb01b96a79134ec5b32b3e66ef13137c70a5271bdc783c08911ea3602765669d  bitcoin-win-0.17/x86_64-w64-mingw32/boost/boost-1_64_0-b464eb18dc2.tar.gz.hash
-    34cccf72520e28eda11ad0f2d3b9984dda95ec8b34552d7d5614d907924a303d  bitcoin-win-0.17/x86_64-w64-mingw32/libevent/libevent-2.1.8-stable-bf1b616ea2a.tar.gz
-    3a51dcface97b63d7776565ba84fb28870eca6aaa74f8b67f7b38c0b194f2737  bitcoin-win-0.17/x86_64-w64-mingw32/libevent/libevent-2.1.8-stable-bf1b616ea2a.tar.gz.hash
-    7aa6eace0f84f518b309ebc2bebab58cdf3711cab3708b41a701ac7785d4ce9b  bitcoin-win-0.17/x86_64-w64-mingw32/miniupnpc/miniupnpc-2.0.20180203-a9e24ff7819.tar.gz
-    768cd563285b7ae7aed62e12a6ac6c0a47a6fb5749239b08a588ce6b25433215  bitcoin-win-0.17/x86_64-w64-mingw32/miniupnpc/miniupnpc-2.0.20180203-a9e24ff7819.tar.gz.hash
-    f13a126482b006705f1dc495ed07962f656f9f4b49c1f5c6af007ac40285b1de  bitcoin-win-0.17/x86_64-w64-mingw32/native_protobuf/native_protobuf-2.6.1-8c34d678f21.tar.gz
-    d7eb84096f55e56ac8cea84ad28a9907996145983a34732841c1781839f46965  bitcoin-win-0.17/x86_64-w64-mingw32/native_protobuf/native_protobuf-2.6.1-8c34d678f21.tar.gz.hash
-    2ae7d4a746435db335a8349ac9b89a9ae7bc10060125da0b91f7f371681ad650  bitcoin-win-0.17/x86_64-w64-mingw32/openssl/openssl-1.0.1k-f1b97c2999a.tar.gz
-    5df714273c1c26f5e6a6b54614b6188f300960640dba9db26eedd2372dc42ce4  bitcoin-win-0.17/x86_64-w64-mingw32/openssl/openssl-1.0.1k-f1b97c2999a.tar.gz.hash
-    a233147ec50c74b2a3ff929d6d748f280ce776bf0792b0b84589fb36b8df733f  bitcoin-win-0.17/x86_64-w64-mingw32/protobuf/protobuf-2.6.1-2cada44443e.tar.gz
-    513c86b95e342ee37ac9ea8c668b804991d0bdd5f67d4cccf90d4507579c1c08  bitcoin-win-0.17/x86_64-w64-mingw32/protobuf/protobuf-2.6.1-2cada44443e.tar.gz.hash
-    9a1dfe0f70c6526ba4aee4104363b94b4768862e6e5babccf9512be38d5389fc  bitcoin-win-0.17/x86_64-w64-mingw32/qrencode/qrencode-3.4.4-4783d37c300.tar.gz
-    3f6b79080c94e9da1273f8ad3745602c1feeb6226038735a751f943f7714cb8d  bitcoin-win-0.17/x86_64-w64-mingw32/qrencode/qrencode-3.4.4-4783d37c300.tar.gz.hash
-    039292a65f784168968a1f95a26794188393c8334095f595285d0ee110a66d3d  bitcoin-win-0.17/x86_64-w64-mingw32/qt/qt-5.9.6-ee898a34796.tar.gz
-    cf1386cf1db7e95820f6f46f2aeb430d5c2537c851e532f2246c701967914455  bitcoin-win-0.17/x86_64-w64-mingw32/qt/qt-5.9.6-ee898a34796.tar.gz.hash
-    4c3f626e8e4392c8dded7fea20811fbbd46d02b815bfb24fab3725e2bccf7b0a  bitcoin-win-0.17/x86_64-w64-mingw32/zeromq/zeromq-4.2.3-31d9097805d.tar.gz
-    3c077152e19be6fd1673169da45793d30b0693636c680a5f9121a705e544f6fc  bitcoin-win-0.17/x86_64-w64-mingw32/zeromq/zeromq-4.2.3-31d9097805d.tar.gz.hash
-    67a357d1a72c72b73c8a5fd2a562c971f57dcb05b9760139dec1ab3156c2e0e2  bitcoin-win-0.17/x86_64-w64-mingw32/zlib/zlib-1.2.11-d59552a85ce.tar.gz
-    4f86f433c83da0b2596ab0dea5ab277d5d44edf3b77e54ea96180b317f46dca4  bitcoin-win-0.17/x86_64-w64-mingw32/zlib/zlib-1.2.11-d59552a85ce.tar.gz.hash
+    fa26706a6596249a8a3dfc60d8ccf58b8cc68c3f62e40457f29ac0d571af3779  aixcoin-win-0.17/i686-w64-mingw32/bdb/bdb-4.8.30-e322a932df1.tar.gz
+    a84e2be001a37b72aad39a84090b9f7f1a58f073729cb5ed06229275ec145b88  aixcoin-win-0.17/i686-w64-mingw32/bdb/bdb-4.8.30-e322a932df1.tar.gz.hash
+    f4c50dcf96e0ae47d3078f1036e81602a8f8c04ccf9705c6cd16a56345aaddaf  aixcoin-win-0.17/i686-w64-mingw32/boost/boost-1_64_0-6a436d58d5b.tar.gz
+    89e24860e044b6a98b605fae0337bb71cb93e6a7b00f3689f82bf8aee943c6d2  aixcoin-win-0.17/i686-w64-mingw32/boost/boost-1_64_0-6a436d58d5b.tar.gz.hash
+    eb166c3d66a3e3b9d25dfaf07b899d88944bd703fbb837e20a81a958e77a0898  aixcoin-win-0.17/i686-w64-mingw32/libevent/libevent-2.1.8-stable-4694656d108.tar.gz
+    f29f8e2807c40d756c63bb4ef9f2f4cf59e4c38f87f71b637ff7cbfe0cecac07  aixcoin-win-0.17/i686-w64-mingw32/libevent/libevent-2.1.8-stable-4694656d108.tar.gz.hash
+    0ff03ddb55a2b47051607ab76e8daf29b40b48daa1ef6fb094779aa0bbf5d065  aixcoin-win-0.17/i686-w64-mingw32/miniupnpc/miniupnpc-2.0.20180203-aac94944602.tar.gz
+    eca44a46e084d3640f149c9136f30cfd46dfb4ef14dc686ef94a75aad5732afc  aixcoin-win-0.17/i686-w64-mingw32/miniupnpc/miniupnpc-2.0.20180203-aac94944602.tar.gz.hash
+    2e9470d685312f5bac831d5ace9dadce8dd3487c471a0a5b11cb0dc1f0588892  aixcoin-win-0.17/i686-w64-mingw32/native_protobuf/native_protobuf-2.6.1-8c34d678f21.tar.gz
+    e4a8f9c86ac44984d555ed47958455657bd3cff96c31223536addbbc6b46a111  aixcoin-win-0.17/i686-w64-mingw32/native_protobuf/native_protobuf-2.6.1-8c34d678f21.tar.gz.hash
+    e9a872c6804bba344e2710a2a259d89238166e7914a168259608b9725c4322c9  aixcoin-win-0.17/i686-w64-mingw32/openssl/openssl-1.0.1k-93a7e63af19.tar.gz
+    70a851d58953acb6a1d62e962c1f4a286d3c4e55bc52ffd415c67ba24e34fce0  aixcoin-win-0.17/i686-w64-mingw32/openssl/openssl-1.0.1k-93a7e63af19.tar.gz.hash
+    144faa9b2b85e2015066089360162542dfd363ca5eb636578f8f809b434a782d  aixcoin-win-0.17/i686-w64-mingw32/protobuf/protobuf-2.6.1-aa9617bedda.tar.gz
+    7d7e638c55d853caa7d98e9f25491ebb8c4c4795953f00ce32dbaf3def43e6db  aixcoin-win-0.17/i686-w64-mingw32/protobuf/protobuf-2.6.1-aa9617bedda.tar.gz.hash
+    c7c90ba2324be087a4d5d2b30137d1d659dcb4b066e939820b040be26e405de9  aixcoin-win-0.17/i686-w64-mingw32/qrencode/qrencode-3.4.4-d43ab7b076f.tar.gz
+    e4cce04026b89d7394c1fb86382950ffb76f7638a49d7772274b7010417835c0  aixcoin-win-0.17/i686-w64-mingw32/qrencode/qrencode-3.4.4-d43ab7b076f.tar.gz.hash
+    fd39aae9c234be4c6435bb2bb8362c3d41ebc96d0fb1d1c3bf14c45e8c7421e7  aixcoin-win-0.17/i686-w64-mingw32/qt/qt-5.9.6-55f60dab80e.tar.gz
+    229286dd623949a48e26fea61b7aedcd92003176f867cb25ac88547227bef042  aixcoin-win-0.17/i686-w64-mingw32/qt/qt-5.9.6-55f60dab80e.tar.gz.hash
+    1f8ba6c6245dda125e216c3c57919f8c2b88918b30091c96f105e3628727fcc0  aixcoin-win-0.17/i686-w64-mingw32/zeromq/zeromq-4.2.3-0c5743f98b2.tar.gz
+    6f3b1610d79e8128f0fb1c6fa33511c01e02ec2f1931fbcb6d34192644b1bbd2  aixcoin-win-0.17/i686-w64-mingw32/zeromq/zeromq-4.2.3-0c5743f98b2.tar.gz.hash
+    ea279477c41a7addb9228e29597eeaa2edec82089724ef9c30efd42099821978  aixcoin-win-0.17/i686-w64-mingw32/zlib/zlib-1.2.11-cd2adad0bfe.tar.gz
+    c254063272264bf6d30ee40c78eb25f0aa2f33ff902a05e040a6f77fd3b0eeaa  aixcoin-win-0.17/i686-w64-mingw32/zlib/zlib-1.2.11-cd2adad0bfe.tar.gz.hash
+    a36cb35559324b6e41aa61674cf957e9e9867b7a7f8f89cf11245619aae70c9a  aixcoin-win-0.17/x86_64-w64-mingw32/bdb/bdb-4.8.30-61b95a952f9.tar.gz
+    2eb093a42fda2c3a1af2cc7bec1f15fbf789e8a2eeab4c14ae3ecfedf0252e91  aixcoin-win-0.17/x86_64-w64-mingw32/bdb/bdb-4.8.30-61b95a952f9.tar.gz.hash
+    2e57c969bc9f9745340c6e48f1b2a75049927f98b073fe5793a27cbb85eaa42d  aixcoin-win-0.17/x86_64-w64-mingw32/boost/boost-1_64_0-b464eb18dc2.tar.gz
+    bb01b96a79134ec5b32b3e66ef13137c70a5271bdc783c08911ea3602765669d  aixcoin-win-0.17/x86_64-w64-mingw32/boost/boost-1_64_0-b464eb18dc2.tar.gz.hash
+    34cccf72520e28eda11ad0f2d3b9984dda95ec8b34552d7d5614d907924a303d  aixcoin-win-0.17/x86_64-w64-mingw32/libevent/libevent-2.1.8-stable-bf1b616ea2a.tar.gz
+    3a51dcface97b63d7776565ba84fb28870eca6aaa74f8b67f7b38c0b194f2737  aixcoin-win-0.17/x86_64-w64-mingw32/libevent/libevent-2.1.8-stable-bf1b616ea2a.tar.gz.hash
+    7aa6eace0f84f518b309ebc2bebab58cdf3711cab3708b41a701ac7785d4ce9b  aixcoin-win-0.17/x86_64-w64-mingw32/miniupnpc/miniupnpc-2.0.20180203-a9e24ff7819.tar.gz
+    768cd563285b7ae7aed62e12a6ac6c0a47a6fb5749239b08a588ce6b25433215  aixcoin-win-0.17/x86_64-w64-mingw32/miniupnpc/miniupnpc-2.0.20180203-a9e24ff7819.tar.gz.hash
+    f13a126482b006705f1dc495ed07962f656f9f4b49c1f5c6af007ac40285b1de  aixcoin-win-0.17/x86_64-w64-mingw32/native_protobuf/native_protobuf-2.6.1-8c34d678f21.tar.gz
+    d7eb84096f55e56ac8cea84ad28a9907996145983a34732841c1781839f46965  aixcoin-win-0.17/x86_64-w64-mingw32/native_protobuf/native_protobuf-2.6.1-8c34d678f21.tar.gz.hash
+    2ae7d4a746435db335a8349ac9b89a9ae7bc10060125da0b91f7f371681ad650  aixcoin-win-0.17/x86_64-w64-mingw32/openssl/openssl-1.0.1k-f1b97c2999a.tar.gz
+    5df714273c1c26f5e6a6b54614b6188f300960640dba9db26eedd2372dc42ce4  aixcoin-win-0.17/x86_64-w64-mingw32/openssl/openssl-1.0.1k-f1b97c2999a.tar.gz.hash
+    a233147ec50c74b2a3ff929d6d748f280ce776bf0792b0b84589fb36b8df733f  aixcoin-win-0.17/x86_64-w64-mingw32/protobuf/protobuf-2.6.1-2cada44443e.tar.gz
+    513c86b95e342ee37ac9ea8c668b804991d0bdd5f67d4cccf90d4507579c1c08  aixcoin-win-0.17/x86_64-w64-mingw32/protobuf/protobuf-2.6.1-2cada44443e.tar.gz.hash
+    9a1dfe0f70c6526ba4aee4104363b94b4768862e6e5babccf9512be38d5389fc  aixcoin-win-0.17/x86_64-w64-mingw32/qrencode/qrencode-3.4.4-4783d37c300.tar.gz
+    3f6b79080c94e9da1273f8ad3745602c1feeb6226038735a751f943f7714cb8d  aixcoin-win-0.17/x86_64-w64-mingw32/qrencode/qrencode-3.4.4-4783d37c300.tar.gz.hash
+    039292a65f784168968a1f95a26794188393c8334095f595285d0ee110a66d3d  aixcoin-win-0.17/x86_64-w64-mingw32/qt/qt-5.9.6-ee898a34796.tar.gz
+    cf1386cf1db7e95820f6f46f2aeb430d5c2537c851e532f2246c701967914455  aixcoin-win-0.17/x86_64-w64-mingw32/qt/qt-5.9.6-ee898a34796.tar.gz.hash
+    4c3f626e8e4392c8dded7fea20811fbbd46d02b815bfb24fab3725e2bccf7b0a  aixcoin-win-0.17/x86_64-w64-mingw32/zeromq/zeromq-4.2.3-31d9097805d.tar.gz
+    3c077152e19be6fd1673169da45793d30b0693636c680a5f9121a705e544f6fc  aixcoin-win-0.17/x86_64-w64-mingw32/zeromq/zeromq-4.2.3-31d9097805d.tar.gz.hash
+    67a357d1a72c72b73c8a5fd2a562c971f57dcb05b9760139dec1ab3156c2e0e2  aixcoin-win-0.17/x86_64-w64-mingw32/zlib/zlib-1.2.11-d59552a85ce.tar.gz
+    4f86f433c83da0b2596ab0dea5ab277d5d44edf3b77e54ea96180b317f46dca4  aixcoin-win-0.17/x86_64-w64-mingw32/zlib/zlib-1.2.11-d59552a85ce.tar.gz.hash
     fa26706a6596249a8a3dfc60d8ccf58b8cc68c3f62e40457f29ac0d571af3779  i686-w64-mingw32/bdb/bdb-4.8.30-e322a932df1.tar.gz
     a84e2be001a37b72aad39a84090b9f7f1a58f073729cb5ed06229275ec145b88  i686-w64-mingw32/bdb/bdb-4.8.30-e322a932df1.tar.gz.hash
     f4c50dcf96e0ae47d3078f1036e81602a8f8c04ccf9705c6cd16a56345aaddaf  i686-w64-mingw32/boost/boost-1_64_0-6a436d58d5b.tar.gz
@@ -956,6 +956,6 @@
     67a357d1a72c72b73c8a5fd2a562c971f57dcb05b9760139dec1ab3156c2e0e2  x86_64-w64-mingw32/zlib/zlib-1.2.11-d59552a85ce.tar.gz
     4f86f433c83da0b2596ab0dea5ab277d5d44edf3b77e54ea96180b317f46dca4  x86_64-w64-mingw32/zlib/zlib-1.2.11-d59552a85ce.tar.gz.hash
 - release: 0.17.0rc1-win-unsigned
-- name: bitcoin-win-0.17
+- name: aixcoin-win-0.17
 - type: build
 - optionals: 

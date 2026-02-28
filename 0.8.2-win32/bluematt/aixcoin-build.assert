@@ -1,36 +1,36 @@
 --- !omap
 - out_manifest: |
     4903da37921dc14f5c8a22cc041dd98600f28dce51078cb704110835c7f72e1f  COPYING.txt
-    4ee3579e5b747464ea8272371a84cca0dbf52073325d77b218b8680db71ceea6  bitcoin-0.8.2-win32-setup.exe
-    734a018d67c65f474bb93994f8d775d9b292bb2c9571be0489a97b6a82972fd4  bitcoin-qt.exe
-    3c554a29cabc6ec75c2c6176768c64a2f5deee165facaaee5a2fe476181ec2ad  daemon/bitcoind.exe
+    4ee3579e5b747464ea8272371a84cca0dbf52073325d77b218b8680db71ceea6  aixcoin-0.8.2-win32-setup.exe
+    734a018d67c65f474bb93994f8d775d9b292bb2c9571be0489a97b6a82972fd4  aixcoin-qt.exe
+    3c554a29cabc6ec75c2c6176768c64a2f5deee165facaaee5a2fe476181ec2ad  daemon/aixcoind.exe
     7f1786c821b723b276530abe30d699a97adf5547c3200093aab8468dd94ba181  readme.txt
     11f006809d8da1021bb9cdcc8f4e824e16d37ed79801100044ceba2caaf0eedf  src/.gitattributes
     6e15be657e0ec29ba916596096dc9a005559e3f6df556bcbdb0ffd3d7c6e93c7  src/.gitignore
     4903da37921dc14f5c8a22cc041dd98600f28dce51078cb704110835c7f72e1f  src/COPYING
     ed48a7d4bc68cbff5d2b1a8d755dc24c2673f79b08b8c39cf87392513b3b7e0c  src/INSTALL
     2b7d050955c7a8b39324ee8b1dd3edc9be466a25e5cef7550d705aa4aee18552  src/README.md
-    3c7761db4c71ab711a74491c54f8a069d2cdf51b70a7608bfeb731e932cefe60  src/bitcoin-qt.pro
-    e5d380b9a9800682de7861b1f6bf717455402a19cc5d82f68dd0ebe9b4820453  src/contrib/bitcoind.bash-completion
+    3c7761db4c71ab711a74491c54f8a069d2cdf51b70a7608bfeb731e932cefe60  src/aixcoin-qt.pro
+    e5d380b9a9800682de7861b1f6bf717455402a19cc5d82f68dd0ebe9b4820453  src/contrib/aixcoind.bash-completion
     97e5d499422ce8cba9ae2149f65e4bf4ec2101267ba70e21b2ab63d2b6b15503  src/contrib/bitrpc/bitrpc.py
-    14236bbe6379ce8b3dd1f1ea1fc27a9a12f35a1f39164b26f65f0e638a43b38a  src/contrib/debian/bitcoin-qt.desktop
-    601890ed01933bdde4e1734f339dceccf5a8de8894b718515b8bd43843cf722e  src/contrib/debian/bitcoin-qt.install
-    4a9811dbd9a059ebc72acff5869cb2b564e5d361b09452b2f5cda4c987979a73  src/contrib/debian/bitcoin-qt.lintian-overrides
-    27547657c5e6969ea068e451afab087b0c329e6535bd41d361c61d5f7aab78c3  src/contrib/debian/bitcoin-qt.protocol
-    37496759752fe4e3b59ac680dbbf4ddb5a545869c9352c138f622e0a0c7f98bc  src/contrib/debian/bitcoind.bash-completion
-    52868d14a9592d7626919d52a9c6122f732a77a50e69a991b0fc46c952d9b638  src/contrib/debian/bitcoind.examples
-    1b8fdc20a316509e40638af10926aeacd414d2e0c1f74c85ecdf3c876d4f37c3  src/contrib/debian/bitcoind.install
-    8641f898c8d9616883755dc46dbd65ab01844f15b0050f57eea0846a8ef5a131  src/contrib/debian/bitcoind.lintian-overrides
-    fb62d7e92553bc4689ba24369531a97c26687f9e615ac9f49a31a6a975e853cc  src/contrib/debian/bitcoind.manpages
+    14236bbe6379ce8b3dd1f1ea1fc27a9a12f35a1f39164b26f65f0e638a43b38a  src/contrib/debian/aixcoin-qt.desktop
+    601890ed01933bdde4e1734f339dceccf5a8de8894b718515b8bd43843cf722e  src/contrib/debian/aixcoin-qt.install
+    4a9811dbd9a059ebc72acff5869cb2b564e5d361b09452b2f5cda4c987979a73  src/contrib/debian/aixcoin-qt.lintian-overrides
+    27547657c5e6969ea068e451afab087b0c329e6535bd41d361c61d5f7aab78c3  src/contrib/debian/aixcoin-qt.protocol
+    37496759752fe4e3b59ac680dbbf4ddb5a545869c9352c138f622e0a0c7f98bc  src/contrib/debian/aixcoind.bash-completion
+    52868d14a9592d7626919d52a9c6122f732a77a50e69a991b0fc46c952d9b638  src/contrib/debian/aixcoind.examples
+    1b8fdc20a316509e40638af10926aeacd414d2e0c1f74c85ecdf3c876d4f37c3  src/contrib/debian/aixcoind.install
+    8641f898c8d9616883755dc46dbd65ab01844f15b0050f57eea0846a8ef5a131  src/contrib/debian/aixcoind.lintian-overrides
+    fb62d7e92553bc4689ba24369531a97c26687f9e615ac9f49a31a6a975e853cc  src/contrib/debian/aixcoind.manpages
     72f559b1f811d6a8e27814310fccef7a79863e9161b2f5f542b02771b258d4f1  src/contrib/debian/changelog
     10159baf262b43a92d95db59dae1f72c645127301661e0a3ce4e38b295a97c58  src/contrib/debian/compat
     17cc25ce3bcca41c04de18c36f65c6049c086153f25181fca1f0ada3c88286e7  src/contrib/debian/control
     2139cfcf6b6f1eb05fcbeaec9647f3bf6f8f6b20755f4e20bfde8c2bd7a87a8f  src/contrib/debian/copyright
-    e141088b07641e4e58cc750f93bbdda1ca0e8f07262fce66b73524c1ed97480e  src/contrib/debian/examples/bitcoin.conf
+    e141088b07641e4e58cc750f93bbdda1ca0e8f07262fce66b73524c1ed97480e  src/contrib/debian/examples/aixcoin.conf
     b6d13cac7672c5e35f285fdc841ce148b469f3a3450575975fa9e85f560ddab6  src/contrib/debian/gbp.conf
-    f7765963be966fcbd7f1d5bab06be0477f02fee8ecc35426d316b5a0ff82c3a4  src/contrib/debian/manpages/bitcoin-qt.1
-    f4598dcff7056a699b62a079b76e74d54435db22e05723bab995e22ae71c7f79  src/contrib/debian/manpages/bitcoin.conf.5
-    881dcc53ebe2d2a4f8647eb206fd355c69e4186f225e2dcfce19d276381e613a  src/contrib/debian/manpages/bitcoind.1
+    f7765963be966fcbd7f1d5bab06be0477f02fee8ecc35426d316b5a0ff82c3a4  src/contrib/debian/manpages/aixcoin-qt.1
+    f4598dcff7056a699b62a079b76e74d54435db22e05723bab995e22ae71c7f79  src/contrib/debian/manpages/aixcoin.conf.5
+    881dcc53ebe2d2a4f8647eb206fd355c69e4186f225e2dcfce19d276381e613a  src/contrib/debian/manpages/aixcoind.1
     d331cb9e012a0a4e279cb52609f91f513e13356684b71f7c4d4da710abe8cf1a  src/contrib/debian/patches/README
     01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b  src/contrib/debian/patches/series
     d61d5be419c2a70cf8c00126083f4beb9c78e3078d1fa599bd000776e5d866c6  src/contrib/debian/rules
@@ -51,7 +51,7 @@
     7e60520d2d676b2685bac4548343fc7c5c7d46225d1ffd9926d7bb80b46af70a  src/contrib/gitian-downloader/sipa-key.pgp
     959676a910bf69effe4fa9ee9d2eaee3e07cd1640682e54b85b5ed9a526de316  src/contrib/gitian-downloader/tcatm-key.pgp
     1b2d1236201386c26b09319d974ffbb5d5bd3bb301065896e32b8157b20463d8  src/contrib/gitian-downloader/win32-download-config
-    93b6dedefe70c40587a51602464249991e07cf68ae9cdb21e5799b8679bd05c8  src/contrib/homebrew/bitcoin.qt.pro.patch
+    93b6dedefe70c40587a51602464249991e07cf68ae9cdb21e5799b8679bd05c8  src/contrib/homebrew/aixcoin.qt.pro.patch
     b6963752e03c07997f2466b0392b01ab0c6a2e57f04f8e4c6a05a44b56758403  src/contrib/homebrew/makefile.osx.patch
     8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903  src/contrib/macdeploy/LICENSE
     d70757107df9b394caa1a1e03c7bb23a084cb2217e3cdd4a8e205900b03726e1  src/contrib/macdeploy/background.png
@@ -69,7 +69,7 @@
     dcf5df8538ad4fddd2227656365ab13abef82cf4eddc0393a954c615ee134bc8  src/contrib/spendfrom/setup.py
     5e60679b13d309733e6c8aed52f4086e1b7f4149586f666dddb770071d40cf10  src/contrib/spendfrom/spendfrom.py
     a512fb91a8d2538cbb9942f5b204439c5a5971666a3e2a538842b5d11fc54072  src/contrib/test-patches/README
-    6e5bbb294b2c0470ce24d2ec37a81d8e86caedad98234cdce1b484d8187d2e02  src/contrib/test-patches/bitcoind-comparison.patch
+    6e5bbb294b2c0470ce24d2ec37a81d8e86caedad98234cdce1b484d8187d2e02  src/contrib/test-patches/aixcoind-comparison.patch
     14b39bdff8a05a6e4afb21c009d6487164d18069ec2550895beee6ab97925748  src/contrib/test-patches/temp-revert-1.patch
     eb7d482bb0c06046b63be5f6df90b21d87b647e3cee9c9789fd0a587c85eb261  src/contrib/test-patches/temp-revert-2.patch
     0904bf4050ac9da767366cbf2ac534d5d056eac3127dedc7710693056300895f  src/contrib/test-patches/temp-revert-3.patch
@@ -86,7 +86,7 @@
     7f1786c821b723b276530abe30d699a97adf5547c3200093aab8468dd94ba181  src/doc/README_windows.txt
     ee624ffd770270b2b80875b8536799de8198ed5542c38c3584ad7549cac799e5  src/doc/Tor.txt
     adf4f42af4ec355e440c4fe5464ba7694877e9e00ce5527d2217cb6c2430b825  src/doc/assets-attribution.txt
-    b1f7449ec0cbd783e3657d46b369291ee0a5fb459013e56258d862dfe180eed4  src/doc/bitcoin_logo_doxygen.png
+    b1f7449ec0cbd783e3657d46b369291ee0a5fb459013e56258d862dfe180eed4  src/doc/aixcoin_logo_doxygen.png
     8c76810d14638842b7833fd0709d63f741981682c59fce21237af6b21fad0318  src/doc/build-msw.md
     2f99e82741b4a19bb764366f5667b06f46adca9573aac56b655444eb4297f1b4  src/doc/build-osx.md
     090407c99e2b165d2b333a9ffe3ab6d4e10fb1e17f592a1331632ae537695191  src/doc/build-unix.md
@@ -106,18 +106,18 @@
     a22071608f7e38b4b18f69d87123f6d7429710e8ea7b5370f1c86b14193fbf50  src/share/pixmaps/addressbook16mask.bmp
     76fe6679da5c4d9fd763084a19d1d0cf0eb3fb78f8799ba064e912d1ab4b0b10  src/share/pixmaps/addressbook20.bmp
     392154912bd31605dee19df89e999db180bfa5a595a668ef097d5d3338fbedc8  src/share/pixmaps/addressbook20mask.bmp
-    8571889ac8a29b5c2e537f3fb11973295fcffc8f9b348623aa87b3598e869033  src/share/pixmaps/bitcoin-bc.ico
-    edc785bccfe69d0e4a15954a77f05bd1d1e291f5fb6916c007d8911562434d7f  src/share/pixmaps/bitcoin.ico
-    953f669ebb841db3bcc155371f80d5441804bb89246b0de46e73d51c50f91a9d  src/share/pixmaps/bitcoin128.png
-    52280970079fb54737b6c83fb834f39a340bca2749e56a54daab49cb3cf1927f  src/share/pixmaps/bitcoin128.xpm
-    b7b12b923995119e4460c1a0c4d0ea45c60e7e1f8e6b38598c1421fa1cbe19b8  src/share/pixmaps/bitcoin16.png
-    15b71a355ae5e33d2ffb9fc21e10e9e637ea4da2fb4f0ed8b2bc19cc3ecb8c83  src/share/pixmaps/bitcoin16.xpm
-    48fac8c972d2588537eff21f2e5e433435af529866f91fba69276f26d2c56cc5  src/share/pixmaps/bitcoin256.png
-    d864370cede9a4e0ed27a2538de42e53259f7f53212ada90061b4f8dfce1b208  src/share/pixmaps/bitcoin256.xpm
-    f7f5962c80145d1fe2e9331ff3ab97300854c6882f454ac0b53e1963af592446  src/share/pixmaps/bitcoin32.png
-    c5c8102d0271f147231a2e10b433a5e58c0dbfe1878eecd5054e28ea65d1792c  src/share/pixmaps/bitcoin32.xpm
-    94d804454f780844a3b516f34765bd5a1b1fdc0933d2398a02f5cdd005785b4d  src/share/pixmaps/bitcoin64.png
-    49c19bc6ff15c0a6b51347c15c6571761c149ec738aed01f9b165f40cb43a172  src/share/pixmaps/bitcoin64.xpm
+    8571889ac8a29b5c2e537f3fb11973295fcffc8f9b348623aa87b3598e869033  src/share/pixmaps/aixcoin-bc.ico
+    edc785bccfe69d0e4a15954a77f05bd1d1e291f5fb6916c007d8911562434d7f  src/share/pixmaps/aixcoin.ico
+    953f669ebb841db3bcc155371f80d5441804bb89246b0de46e73d51c50f91a9d  src/share/pixmaps/aixcoin128.png
+    52280970079fb54737b6c83fb834f39a340bca2749e56a54daab49cb3cf1927f  src/share/pixmaps/aixcoin128.xpm
+    b7b12b923995119e4460c1a0c4d0ea45c60e7e1f8e6b38598c1421fa1cbe19b8  src/share/pixmaps/aixcoin16.png
+    15b71a355ae5e33d2ffb9fc21e10e9e637ea4da2fb4f0ed8b2bc19cc3ecb8c83  src/share/pixmaps/aixcoin16.xpm
+    48fac8c972d2588537eff21f2e5e433435af529866f91fba69276f26d2c56cc5  src/share/pixmaps/aixcoin256.png
+    d864370cede9a4e0ed27a2538de42e53259f7f53212ada90061b4f8dfce1b208  src/share/pixmaps/aixcoin256.xpm
+    f7f5962c80145d1fe2e9331ff3ab97300854c6882f454ac0b53e1963af592446  src/share/pixmaps/aixcoin32.png
+    c5c8102d0271f147231a2e10b433a5e58c0dbfe1878eecd5054e28ea65d1792c  src/share/pixmaps/aixcoin32.xpm
+    94d804454f780844a3b516f34765bd5a1b1fdc0933d2398a02f5cdd005785b4d  src/share/pixmaps/aixcoin64.png
+    49c19bc6ff15c0a6b51347c15c6571761c149ec738aed01f9b165f40cb43a172  src/share/pixmaps/aixcoin64.xpm
     8a1978ca70d9aa80942dac340a212d1e42650c21182e785cca99e586c9ccb620  src/share/pixmaps/check.ico
     8df0786f993a974b1f0a5128e761d6e6ceff3477d53637643e3d0b7f75608441  src/share/pixmaps/favicon.ico
     56775745530274f324d1d6e7e34a65666b70b3a40fe5fb9c895885f5aa0a6da7  src/share/pixmaps/nsis-header.bmp
@@ -142,8 +142,8 @@
     fed03e071c11311bcac7a8db9cbd485d99e0d56c83c2f18d12946a0e73b3554e  src/src/allocators.h
     b829aea2a6e5b2be3a9836e361979bfcc372cd75d9b4973f95b46ccbe720a9ca  src/src/base58.h
     6259786263d5eef59538c1ead6f7486225332031dd4aa0011fa2064a4817454a  src/src/bignum.h
-    a030031aaea1511b79acfd430932ade7a2571f3d964193c1bed651d88db2340e  src/src/bitcoinrpc.cpp
-    613ed0ab4e0fd05bd85fe2e0de288252c2ca624f9abf8942aeea42e76fee6901  src/src/bitcoinrpc.h
+    a030031aaea1511b79acfd430932ade7a2571f3d964193c1bed651d88db2340e  src/src/aixcoinrpc.cpp
+    613ed0ab4e0fd05bd85fe2e0de288252c2ca624f9abf8942aeea42e76fee6901  src/src/aixcoinrpc.h
     43d871e35f95d8effe4ae362273c95e016811afb15d81575f7254bc329b157a4  src/src/bloom.cpp
     cb0979854d82003e0c401aebcc5f4b49e916ff2571aee4ebec6966c439c91fcf  src/src/bloom.h
     cfc15eefce3699fc2bf6b44621aa0f137548dc2de9dd5071a017df396e0e6b64  src/src/checkpoints.cpp
@@ -339,17 +339,17 @@
     6586f2598cd989c33f51ec9e7db49c1cfb34197ac8864caf0f39169936e93ace  src/src/qt/addresstablemodel.h
     fa37c7e07ef29b5f7b667c78d9257b3ea10354ea3c5372fe718160fbf68297b1  src/src/qt/askpassphrasedialog.cpp
     74c07ed7ed4d8e83c47fa7220229082fea4b294569ba3e52e502cccd6a3abe9e  src/src/qt/askpassphrasedialog.h
-    a54174b009f757598e7cc9adcdb346733d0a0a479f569f9f6f89361ba3148d9f  src/src/qt/bitcoin.cpp
-    9f04a53ab461e6289ba03982082a6f836c2d35cb85d1a10cec770f75b73941ed  src/src/qt/bitcoin.qrc
-    28573eda16d0549d51b64fddaea1151a5522453f8c7ab854b61c3a4ff17b6b1d  src/src/qt/bitcoinaddressvalidator.cpp
-    523f0aa84b8bbf420138c9c74703e4c6bc93870862e88e6ad1b831bdd5b828ed  src/src/qt/bitcoinaddressvalidator.h
-    c9848e1f256390c78607b8e4e070266393a3c49fad309c6f9043c06fd7bd34d0  src/src/qt/bitcoinamountfield.cpp
-    65baedc9982da35319bc384abed7e34bc52e70248ef0e826e9b4db4c533c1fa3  src/src/qt/bitcoinamountfield.h
-    4f6a2cdd48d9b54dd11a98f1c30de9551871f9ac4cd9544ddb3a69a8c6bc9ff0  src/src/qt/bitcoingui.cpp
-    fed877ec2c28db4e2b9335f49bc9448eb67f72a06989e440e986393a40f17807  src/src/qt/bitcoingui.h
-    6eee09adb49fb108223c61f84b447eb0bb6640386ded59d7662d7ff0af314144  src/src/qt/bitcoinstrings.cpp
-    604500fb7d16d1dd0f814f2801f82fac36b3e7b3b711e84a1354adbe512eef97  src/src/qt/bitcoinunits.cpp
-    c76ceeab1803b0a977299aeb4c2a71e19ec925ae16890208021a96b27aa4381e  src/src/qt/bitcoinunits.h
+    a54174b009f757598e7cc9adcdb346733d0a0a479f569f9f6f89361ba3148d9f  src/src/qt/aixcoin.cpp
+    9f04a53ab461e6289ba03982082a6f836c2d35cb85d1a10cec770f75b73941ed  src/src/qt/aixcoin.qrc
+    28573eda16d0549d51b64fddaea1151a5522453f8c7ab854b61c3a4ff17b6b1d  src/src/qt/aixcoinaddressvalidator.cpp
+    523f0aa84b8bbf420138c9c74703e4c6bc93870862e88e6ad1b831bdd5b828ed  src/src/qt/aixcoinaddressvalidator.h
+    c9848e1f256390c78607b8e4e070266393a3c49fad309c6f9043c06fd7bd34d0  src/src/qt/aixcoinamountfield.cpp
+    65baedc9982da35319bc384abed7e34bc52e70248ef0e826e9b4db4c533c1fa3  src/src/qt/aixcoinamountfield.h
+    4f6a2cdd48d9b54dd11a98f1c30de9551871f9ac4cd9544ddb3a69a8c6bc9ff0  src/src/qt/aixcoingui.cpp
+    fed877ec2c28db4e2b9335f49bc9448eb67f72a06989e440e986393a40f17807  src/src/qt/aixcoingui.h
+    6eee09adb49fb108223c61f84b447eb0bb6640386ded59d7662d7ff0af314144  src/src/qt/aixcoinstrings.cpp
+    604500fb7d16d1dd0f814f2801f82fac36b3e7b3b711e84a1354adbe512eef97  src/src/qt/aixcoinunits.cpp
+    c76ceeab1803b0a977299aeb4c2a71e19ec925ae16890208021a96b27aa4381e  src/src/qt/aixcoinunits.h
     e9db77fed6e4da4de9b4c474198608e1373bc5a8a015c6578a81c6e8fd4c0e5d  src/src/qt/clientmodel.cpp
     8fdff502c648e3cd73f57c00e1e9c577897f1ba5459adaf7ddd0064e7f1b0afc  src/src/qt/clientmodel.h
     1fc811a41c768b43159cd1123802ca4c085f63e96cebc6140839c27cf996db6c  src/src/qt/csvmodelwriter.cpp
@@ -371,53 +371,53 @@
     3badade08a51c4e29eac2d83e7ca50858f4607441d3653cad8b22615295a2938  src/src/qt/guiconstants.h
     40ca69c5974b92e6d042fcd992c31ed19668f564e12ce95bb893b692dacc6b39  src/src/qt/guiutil.cpp
     fa24b9268a2f4d9834c40d1a8228c8c734d1f207a3dc85d871945919842dff62  src/src/qt/guiutil.h
-    aa207ebfa5879cc57164f6aa94d50735342d2e4c738de82b596d63d21cd3fc94  src/src/qt/locale/bitcoin_af_ZA.ts
-    08b43688dfbaafcf446155ab7c2e8b33a19a463f5cc48f7698b9d6c849df79ca  src/src/qt/locale/bitcoin_ar.ts
-    b822aed480730d485f65486d9cfba0466032e1de71e16284b7b82c2b5c33e33a  src/src/qt/locale/bitcoin_bg.ts
-    ae9eeab2ab6282082bc0223de2cfd5d8543b1ff7110fc26035489e36e2689bad  src/src/qt/locale/bitcoin_bs.ts
-    e44927effa61a8c9d968e86801acdc0f73ee56707f3515e01f193b13e01fa644  src/src/qt/locale/bitcoin_ca.ts
-    3f976af9baab7943a03f03b332917559a47e5202ed1c2e5212d0429e6c208baf  src/src/qt/locale/bitcoin_ca_ES.ts
-    6b023c4cd5cd004a4c5bdedef0d5ca268412cc5e9d811ec5e5a66e9f86722b97  src/src/qt/locale/bitcoin_cs.ts
-    26c71679ccae3aeff437c75be2c59c8167890fd6faae436dcff480e11c6189a1  src/src/qt/locale/bitcoin_cy.ts
-    f9f77d072dfe43201e3ef8971ed0862e0d4994e7fe4e458cc7f6fd547c138857  src/src/qt/locale/bitcoin_da.ts
-    74fb5151c766ec3c8a9b67f09e0d241fa5bcf974a8e31647ab0920c6598a176f  src/src/qt/locale/bitcoin_de.ts
-    c358d4a4f0ffd142db0febeea19ce11a27b8ab87c65105e95e89b63c8446db92  src/src/qt/locale/bitcoin_el_GR.ts
-    0ba08a28441da820d06504e64f231b78867db88138c95eeca2d086b55607025a  src/src/qt/locale/bitcoin_en.ts
-    b5b44918ff3aacc590456af28b27a44c40815250589aff380702774111736e4b  src/src/qt/locale/bitcoin_eo.ts
-    164f91bf3d0937aee5b01b2d06999f3d029a4c469b1846a7f91ac4141ebbccb8  src/src/qt/locale/bitcoin_es.ts
-    b37010b655a7262eba1001e51aefe47e7b25d7119f12eb60a4afbb69a1e36806  src/src/qt/locale/bitcoin_es_CL.ts
-    02bc7e1f916b6541889c54527a18fe5eaa9306572498f586478fab125b63338c  src/src/qt/locale/bitcoin_et.ts
-    aebb11d73b2dd03fc04ce22e604c8ae07b73e1a0277975754090697ef988e613  src/src/qt/locale/bitcoin_eu_ES.ts
-    2ca3c7274259966ee16cdf60651d1ab1bec55a0d852757292f70248ed5afa57a  src/src/qt/locale/bitcoin_fa.ts
-    6e601fbd296dd52720e3585611e8d2d539c5cfc5330d24a10897fd1fab35abb5  src/src/qt/locale/bitcoin_fa_IR.ts
-    b6d112389a912fd58a9dcea482f48c4e0d5806bce60c144faf340a1b1af6ff29  src/src/qt/locale/bitcoin_fi.ts
-    f19f22cf4674d6a1177e3e3136bf9e9aaa30814b3d1fd0c6810893984285a873  src/src/qt/locale/bitcoin_fr.ts
-    151c937cf8c13aa63f8f4a1b188b8cac262783055b3532204d4d6c14ad5c3e7d  src/src/qt/locale/bitcoin_fr_CA.ts
-    f764340845ba84891fe9a651f1c5ed574a507610f3032ff469bad4284582453e  src/src/qt/locale/bitcoin_gu_IN.ts
-    a419b28be82647e3931d32b9a9272bfe76c70f7ba26a563c8c2f2ef01f863fc5  src/src/qt/locale/bitcoin_he.ts
-    220c6e903315af17363633fd3b9b1be83b03a2bb6067fbd674708c04dc12c39c  src/src/qt/locale/bitcoin_hi_IN.ts
-    f32bfe46ccfa0deb662b86dbfec696d86aaceb520d01dfe151a568a6f4257ddb  src/src/qt/locale/bitcoin_hr.ts
-    41a9c9318bd719fd90dfb471e50ed1af4cc30e4a8fb33855795979450a4ea78b  src/src/qt/locale/bitcoin_hu.ts
-    30ab2985f22b35d600f886bcc80113858489ce98ec76aaae986dc0697bae4065  src/src/qt/locale/bitcoin_it.ts
-    1154f736cab9d443996346db49c7aff6dc51f629b67ae67ca3596510f23138a9  src/src/qt/locale/bitcoin_ja.ts
-    76ad52e445d06749cf6ae350f64110226d9b5c582300e3215a7906ffbbbc483c  src/src/qt/locale/bitcoin_la.ts
-    cde46112e63435d048884ad7de2bdbfd65833e44e93ac0fb4eb52cef4ce12d73  src/src/qt/locale/bitcoin_lt.ts
-    87e7459da549f80f35d85852e545350b5bec66382fe9ae428c6cefb825dc336d  src/src/qt/locale/bitcoin_lv_LV.ts
-    1138ce7693fd12ba572c272e8de43af7ad3daffea91d32d9f9b545c81a055d73  src/src/qt/locale/bitcoin_nb.ts
-    c61d92c2eeed29e642086abe8a3a8d7027b284f40b33ed18e32d40d077f518f8  src/src/qt/locale/bitcoin_nl.ts
-    11c18be27d28c136a5477d2823dee04149dc651d463211010488d296e2320134  src/src/qt/locale/bitcoin_pl.ts
-    62777b9753ff843bd8f0ac324597492ec5a915cda4f4c2252876ca1151d7899e  src/src/qt/locale/bitcoin_pt_BR.ts
-    4a56cd9985433fc5164d18c4cfbd7f28d13e1c15a972fdcb34492652b45f18ad  src/src/qt/locale/bitcoin_pt_PT.ts
-    944c14017177ddcfdcca4ea5d5805eeca63bc19ffd84b2ccbc65c44e07c3348f  src/src/qt/locale/bitcoin_ro_RO.ts
-    f447253d646bcc09a21c18c4481ff58b33d5af5ac7a5e2f6a65b5574a30c2309  src/src/qt/locale/bitcoin_ru.ts
-    e229d59a8185a90e1ca7fed21d8ff434435342ec6759cf5bc9556d19488f9417  src/src/qt/locale/bitcoin_sk.ts
-    86be36be35f7cddbbefa1c7cc9546035e4d67c6589b68b782e1429780850d7ce  src/src/qt/locale/bitcoin_sr.ts
-    650ab63e6d8c46d85040c683c6de0c9a03b72d888a0b7feacb559bc48ce0be2f  src/src/qt/locale/bitcoin_sv.ts
-    1bd721014083042891a69f6424e0aca8ff12ffcb5d886c3eca2bb75d2f094736  src/src/qt/locale/bitcoin_th_TH.ts
-    53fba9eaeac532eee18f221a19649808fd20d745bab3a9b5e1d2ebbd9fc287d0  src/src/qt/locale/bitcoin_tr.ts
-    c325786450029b33609acf121c920fbc9a1b1935ac1a421bbd107c70444e69f4  src/src/qt/locale/bitcoin_uk.ts
-    f0ab9f3ce81d77630de33fb0deff91db8d2b4e6053415b641c224b04a0976d1f  src/src/qt/locale/bitcoin_zh_CN.ts
-    fcb12ba86cf7438a2e2ba7b40997cda12d23aa27902773d870fd4ed1e49ec92b  src/src/qt/locale/bitcoin_zh_TW.ts
+    aa207ebfa5879cc57164f6aa94d50735342d2e4c738de82b596d63d21cd3fc94  src/src/qt/locale/aixcoin_af_ZA.ts
+    08b43688dfbaafcf446155ab7c2e8b33a19a463f5cc48f7698b9d6c849df79ca  src/src/qt/locale/aixcoin_ar.ts
+    b822aed480730d485f65486d9cfba0466032e1de71e16284b7b82c2b5c33e33a  src/src/qt/locale/aixcoin_bg.ts
+    ae9eeab2ab6282082bc0223de2cfd5d8543b1ff7110fc26035489e36e2689bad  src/src/qt/locale/aixcoin_bs.ts
+    e44927effa61a8c9d968e86801acdc0f73ee56707f3515e01f193b13e01fa644  src/src/qt/locale/aixcoin_ca.ts
+    3f976af9baab7943a03f03b332917559a47e5202ed1c2e5212d0429e6c208baf  src/src/qt/locale/aixcoin_ca_ES.ts
+    6b023c4cd5cd004a4c5bdedef0d5ca268412cc5e9d811ec5e5a66e9f86722b97  src/src/qt/locale/aixcoin_cs.ts
+    26c71679ccae3aeff437c75be2c59c8167890fd6faae436dcff480e11c6189a1  src/src/qt/locale/aixcoin_cy.ts
+    f9f77d072dfe43201e3ef8971ed0862e0d4994e7fe4e458cc7f6fd547c138857  src/src/qt/locale/aixcoin_da.ts
+    74fb5151c766ec3c8a9b67f09e0d241fa5bcf974a8e31647ab0920c6598a176f  src/src/qt/locale/aixcoin_de.ts
+    c358d4a4f0ffd142db0febeea19ce11a27b8ab87c65105e95e89b63c8446db92  src/src/qt/locale/aixcoin_el_GR.ts
+    0ba08a28441da820d06504e64f231b78867db88138c95eeca2d086b55607025a  src/src/qt/locale/aixcoin_en.ts
+    b5b44918ff3aacc590456af28b27a44c40815250589aff380702774111736e4b  src/src/qt/locale/aixcoin_eo.ts
+    164f91bf3d0937aee5b01b2d06999f3d029a4c469b1846a7f91ac4141ebbccb8  src/src/qt/locale/aixcoin_es.ts
+    b37010b655a7262eba1001e51aefe47e7b25d7119f12eb60a4afbb69a1e36806  src/src/qt/locale/aixcoin_es_CL.ts
+    02bc7e1f916b6541889c54527a18fe5eaa9306572498f586478fab125b63338c  src/src/qt/locale/aixcoin_et.ts
+    aebb11d73b2dd03fc04ce22e604c8ae07b73e1a0277975754090697ef988e613  src/src/qt/locale/aixcoin_eu_ES.ts
+    2ca3c7274259966ee16cdf60651d1ab1bec55a0d852757292f70248ed5afa57a  src/src/qt/locale/aixcoin_fa.ts
+    6e601fbd296dd52720e3585611e8d2d539c5cfc5330d24a10897fd1fab35abb5  src/src/qt/locale/aixcoin_fa_IR.ts
+    b6d112389a912fd58a9dcea482f48c4e0d5806bce60c144faf340a1b1af6ff29  src/src/qt/locale/aixcoin_fi.ts
+    f19f22cf4674d6a1177e3e3136bf9e9aaa30814b3d1fd0c6810893984285a873  src/src/qt/locale/aixcoin_fr.ts
+    151c937cf8c13aa63f8f4a1b188b8cac262783055b3532204d4d6c14ad5c3e7d  src/src/qt/locale/aixcoin_fr_CA.ts
+    f764340845ba84891fe9a651f1c5ed574a507610f3032ff469bad4284582453e  src/src/qt/locale/aixcoin_gu_IN.ts
+    a419b28be82647e3931d32b9a9272bfe76c70f7ba26a563c8c2f2ef01f863fc5  src/src/qt/locale/aixcoin_he.ts
+    220c6e903315af17363633fd3b9b1be83b03a2bb6067fbd674708c04dc12c39c  src/src/qt/locale/aixcoin_hi_IN.ts
+    f32bfe46ccfa0deb662b86dbfec696d86aaceb520d01dfe151a568a6f4257ddb  src/src/qt/locale/aixcoin_hr.ts
+    41a9c9318bd719fd90dfb471e50ed1af4cc30e4a8fb33855795979450a4ea78b  src/src/qt/locale/aixcoin_hu.ts
+    30ab2985f22b35d600f886bcc80113858489ce98ec76aaae986dc0697bae4065  src/src/qt/locale/aixcoin_it.ts
+    1154f736cab9d443996346db49c7aff6dc51f629b67ae67ca3596510f23138a9  src/src/qt/locale/aixcoin_ja.ts
+    76ad52e445d06749cf6ae350f64110226d9b5c582300e3215a7906ffbbbc483c  src/src/qt/locale/aixcoin_la.ts
+    cde46112e63435d048884ad7de2bdbfd65833e44e93ac0fb4eb52cef4ce12d73  src/src/qt/locale/aixcoin_lt.ts
+    87e7459da549f80f35d85852e545350b5bec66382fe9ae428c6cefb825dc336d  src/src/qt/locale/aixcoin_lv_LV.ts
+    1138ce7693fd12ba572c272e8de43af7ad3daffea91d32d9f9b545c81a055d73  src/src/qt/locale/aixcoin_nb.ts
+    c61d92c2eeed29e642086abe8a3a8d7027b284f40b33ed18e32d40d077f518f8  src/src/qt/locale/aixcoin_nl.ts
+    11c18be27d28c136a5477d2823dee04149dc651d463211010488d296e2320134  src/src/qt/locale/aixcoin_pl.ts
+    62777b9753ff843bd8f0ac324597492ec5a915cda4f4c2252876ca1151d7899e  src/src/qt/locale/aixcoin_pt_BR.ts
+    4a56cd9985433fc5164d18c4cfbd7f28d13e1c15a972fdcb34492652b45f18ad  src/src/qt/locale/aixcoin_pt_PT.ts
+    944c14017177ddcfdcca4ea5d5805eeca63bc19ffd84b2ccbc65c44e07c3348f  src/src/qt/locale/aixcoin_ro_RO.ts
+    f447253d646bcc09a21c18c4481ff58b33d5af5ac7a5e2f6a65b5574a30c2309  src/src/qt/locale/aixcoin_ru.ts
+    e229d59a8185a90e1ca7fed21d8ff434435342ec6759cf5bc9556d19488f9417  src/src/qt/locale/aixcoin_sk.ts
+    86be36be35f7cddbbefa1c7cc9546035e4d67c6589b68b782e1429780850d7ce  src/src/qt/locale/aixcoin_sr.ts
+    650ab63e6d8c46d85040c683c6de0c9a03b72d888a0b7feacb559bc48ce0be2f  src/src/qt/locale/aixcoin_sv.ts
+    1bd721014083042891a69f6424e0aca8ff12ffcb5d886c3eca2bb75d2f094736  src/src/qt/locale/aixcoin_th_TH.ts
+    53fba9eaeac532eee18f221a19649808fd20d745bab3a9b5e1d2ebbd9fc287d0  src/src/qt/locale/aixcoin_tr.ts
+    c325786450029b33609acf121c920fbc9a1b1935ac1a421bbd107c70444e69f4  src/src/qt/locale/aixcoin_uk.ts
+    f0ab9f3ce81d77630de33fb0deff91db8d2b4e6053415b641c224b04a0976d1f  src/src/qt/locale/aixcoin_zh_CN.ts
+    fcb12ba86cf7438a2e2ba7b40997cda12d23aa27902773d870fd4ed1e49ec92b  src/src/qt/locale/aixcoin_zh_TW.ts
     a9c03fb72a831f906d6715340078c321e04ff4d9f04b234ea3dff0ee01c70209  src/src/qt/macdockiconhandler.h
     ae76cf4da4f884d456eee4b47ebec6000624950f737ee6d0b750626f14f09468  src/src/qt/macdockiconhandler.mm
     5605fc3491bd94f1252ca89135c03e4f552b55ced040b1367d0e9752e16d04ad  src/src/qt/monitoreddatamapper.cpp
@@ -438,14 +438,14 @@
     2fc139b4b224ff5765e99df18e659cde0cdf05c01e0461ca65f9b8af6413a4f5  src/src/qt/qvalidatedlineedit.h
     eca163dda99fbee4f5e132bd9c2e05cbfd708b20321b8351d7b0595c64951f46  src/src/qt/qvaluecombobox.cpp
     f1a1241569e104be01964031275456cdd023ec9fa77d73cd7b3c16fd0aa2141e  src/src/qt/qvaluecombobox.h
-    a9f77db68fc2a7f5d07a28d7b750343ae1e0a40933cc73c609b05ee6ef54ca90  src/src/qt/res/bitcoin-qt.rc
+    a9f77db68fc2a7f5d07a28d7b750343ae1e0a40933cc73c609b05ee6ef54ca90  src/src/qt/res/aixcoin-qt.rc
     f9dd14ade5a13155ae39fd78861fd9c6df394d4394e5511aecc7be6a138143f9  src/src/qt/res/icons/add.png
     b088a9edbf2063e53e1de97873d905db397085784c4e47ea9f2f36e3b69f1a74  src/src/qt/res/icons/address-book.png
-    6fd4e3947da1a258309828a00e3f665085c5f75821bb186af196f7adbe9caafe  src/src/qt/res/icons/bitcoin.icns
-    aa75192e7192123830c4a8cba94a0023a73dc78fb891447a6cc2929a17f71d4a  src/src/qt/res/icons/bitcoin.ico
-    49aa5d47571bba059fd9beb0637086e1691a8a122c255c0b87eb85a73d1e90f5  src/src/qt/res/icons/bitcoin.png
-    74fca2cb872b1b18b1c9ef3d336aa4ddcaed2e01bebf4b545c18c20abae034d3  src/src/qt/res/icons/bitcoin_testnet.ico
-    8c4c02232e71ef8aba27c73869fe39eb50743c129ea4c141689c78792c4f21c6  src/src/qt/res/icons/bitcoin_testnet.png
+    6fd4e3947da1a258309828a00e3f665085c5f75821bb186af196f7adbe9caafe  src/src/qt/res/icons/aixcoin.icns
+    aa75192e7192123830c4a8cba94a0023a73dc78fb891447a6cc2929a17f71d4a  src/src/qt/res/icons/aixcoin.ico
+    49aa5d47571bba059fd9beb0637086e1691a8a122c255c0b87eb85a73d1e90f5  src/src/qt/res/icons/aixcoin.png
+    74fca2cb872b1b18b1c9ef3d336aa4ddcaed2e01bebf4b545c18c20abae034d3  src/src/qt/res/icons/aixcoin_testnet.ico
+    8c4c02232e71ef8aba27c73869fe39eb50743c129ea4c141689c78792c4f21c6  src/src/qt/res/icons/aixcoin_testnet.png
     d23094dee7d6912f933868433fb865f3d3a5461ab01a69b1e1e60e16da257fa8  src/src/qt/res/icons/clock1.png
     a1aaddc6ed879a6afd62b373694e6dae0b0cf81bfac620b33fec5916f2783b87  src/src/qt/res/icons/clock2.png
     41004f339c413b6d1ddfc7db2d1b5a5684623d6e1252457658c055c5f6f87468  src/src/qt/res/icons/clock3.png
@@ -487,7 +487,7 @@
     df8ce4d140cfff6fd5b6fbc4acf5042b004fdba06f82c181eb37e2e7feea0c79  src/src/qt/res/images/splash.png
     9719abac131b96fff9f53c45986a26f349f17a052e399609a217989f051a5c43  src/src/qt/res/images/splash_testnet.png
     d9a06f016acb4045b5407ea816fcd97878cf013ed84ecae9da969dd07acdd767  src/src/qt/res/movies/update_spinner.mng
-    86cdf6d03ddd38ca949e8d8e3f34bbc87abed12baf48bf090ce9e5b2339b3542  src/src/qt/res/src/bitcoin.svg
+    86cdf6d03ddd38ca949e8d8e3f34bbc87abed12baf48bf090ce9e5b2339b3542  src/src/qt/res/src/aixcoin.svg
     4e087a7f7f5fde5df89e8d8c545aa3d432c3d8f3b6230134923ff8c6f8e2d5f8  src/src/qt/res/src/clock1.svg
     35293adbc4c3cec4963cf670162c10171f07beb97dd53ce58acbc440eb9a5171  src/src/qt/res/src/clock2.svg
     24e8aae943878d98f4d77309e252711f87665132376aa3516e2e967666ec5d42  src/src/qt/res/src/clock3.svg
@@ -576,7 +576,7 @@
     a846f8aad311d8556b476b5c05585e6728176eb636baffc7034b81eae6b50e74  src/src/test/script_tests.cpp
     cef7a76d558a7ea074c22915ea3af8a3fd2681da2fcee0e9b6b3426fe757d1ea  src/src/test/serialize_tests.cpp
     c11402be4280cf6f6e13625f13d4189a7113a4e4664d99f7c3905f793c8cf99c  src/src/test/sigopcount_tests.cpp
-    50651e043e172f389cc1b0743075db17089f6ac356ae807fb61f11e1b20b9dab  src/src/test/test_bitcoin.cpp
+    50651e043e172f389cc1b0743075db17089f6ac356ae807fb61f11e1b20b9dab  src/src/test/test_aixcoin.cpp
     1e5235343c2faa70023292d61e953c5178fad3663d334ad33cfcccbe2f202eff  src/src/test/transaction_tests.cpp
     65df1884fb895ffd948651afacc776eff5b68c1589a164a1590e4c6bd6188a45  src/src/test/uint160_tests.cpp
     024b7f8c15445e317983b0533669854f8aa051c6766e6287b27e34d32ce0a2e5  src/src/test/uint256_tests.cpp
@@ -596,11 +596,11 @@
     a91b3592f4caf0a190a8d14d8d32f023185ae989840b11c792cba3c644cb4ce6  src/src/walletdb.cpp
     a8674d072e1d71fb194b23554d934f834e64dd1bc65c9989da1c47c55dd62c18  src/src/walletdb.h
 - in_manifest: |-
-    dcf18330b4ab6761ed67008446e1164336da6a685c7bd12e3fe87f344e3e7b0f  bitcoin-desc.yml
+    dcf18330b4ab6761ed67008446e1164336da6a685c7bd12e3fe87f344e3e7b0f  aixcoin-desc.yml
     3469e94bdfe2687fa38435dfb89e9ba3e0c9237f3d43f91da8b817a08bae4840  qt-win32-4.8.3-gitian-r1.zip
     393cdf5779c556ce09689bacaa2a1083a47b6d7bc247ed8fb2cd3aa94cb0fa80  boost-win32-1.50.0-gitian2.zip
-    b8385fc61727f2936a75dcea86694aad6dbdd5929415a9199151a340574b9367  bitcoin-deps-0.0.5.zip
-    git:09e437ba4e5cb7fcc53020c1ceb2451e0ff1606b bitcoin
+    b8385fc61727f2936a75dcea86694aad6dbdd5929415a9199151a340574b9367  aixcoin-deps-0.0.5.zip
+    git:09e437ba4e5cb7fcc53020c1ceb2451e0ff1606b aixcoin
 - base_manifests: !omap
   - lucid-i386: |
       44f14badacd571efe6b18a4d1adb2098593638d614e837a6ff6a7f9b3ad58e9d  adduser_3.112ubuntu1_all.deb
@@ -853,6 +853,6 @@
       26ec2673d76d3f325891e9634eba7c81b6ca1fa02dcca5144dcc7b2ebae2e08a  xz-utils_4.999.9beta+20091116-1_i386.deb
       76448677f00312141cbacf170af5353967f92a8a5ab154bd6e30dfa92931fafc  zlib1g_1%3a1.2.3.3.dfsg-15ubuntu1_i386.deb
 - release: 0.8.2-win32
-- name: bitcoin
+- name: aixcoin
 - type: build
 - optionals: 

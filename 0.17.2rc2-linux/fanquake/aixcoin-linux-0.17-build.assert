@@ -1,17 +1,17 @@
 --- !!omap
 - out_manifest: |
-    d886feb1480043fa3170ade2600c33fbcf9f0929bb2d9c85ee9074eb1123eca4  bitcoin-0.17.2-aarch64-linux-gnu-debug.tar.gz
-    983758cde1f74f20d90e0cc3efe8586dbb62b240c08dde756ffa530a9e222722  bitcoin-0.17.2-aarch64-linux-gnu.tar.gz
-    e40b25a3b525f9069436817e250c75565aa5697862f50c30468b7dc3f83bdbb1  bitcoin-0.17.2-arm-linux-gnueabihf-debug.tar.gz
-    8543d2601d8185a813078a543d58d9740a47001fc16578ca59b63be72aeb3d39  bitcoin-0.17.2-arm-linux-gnueabihf.tar.gz
-    dfec037c618ebc02dc3216b3497128bf21f096a32e615db08659d9955bab3bcd  bitcoin-0.17.2-i686-pc-linux-gnu-debug.tar.gz
-    95204e3e4fa6516a466d506d9bb09940814168dd9b0210caca0e554469240d15  bitcoin-0.17.2-i686-pc-linux-gnu.tar.gz
-    0ae1fcd4987d141bfe4e8eedeb49f3444bea5d281d096426227a1f969053dba0  bitcoin-0.17.2-x86_64-linux-gnu-debug.tar.gz
-    0cf8d3eaa66113b21e1b7ff66f7afbb189ff5bc226cce4bacf6a1eada5e4a8b7  bitcoin-0.17.2-x86_64-linux-gnu.tar.gz
-    df085e04b9d03d6d1592146dc50ac0dfcda267519ba4b586d8707ebe6c7d80da  src/bitcoin-0.17.2.tar.gz
+    d886feb1480043fa3170ade2600c33fbcf9f0929bb2d9c85ee9074eb1123eca4  aixcoin-0.17.2-aarch64-linux-gnu-debug.tar.gz
+    983758cde1f74f20d90e0cc3efe8586dbb62b240c08dde756ffa530a9e222722  aixcoin-0.17.2-aarch64-linux-gnu.tar.gz
+    e40b25a3b525f9069436817e250c75565aa5697862f50c30468b7dc3f83bdbb1  aixcoin-0.17.2-arm-linux-gnueabihf-debug.tar.gz
+    8543d2601d8185a813078a543d58d9740a47001fc16578ca59b63be72aeb3d39  aixcoin-0.17.2-arm-linux-gnueabihf.tar.gz
+    dfec037c618ebc02dc3216b3497128bf21f096a32e615db08659d9955bab3bcd  aixcoin-0.17.2-i686-pc-linux-gnu-debug.tar.gz
+    95204e3e4fa6516a466d506d9bb09940814168dd9b0210caca0e554469240d15  aixcoin-0.17.2-i686-pc-linux-gnu.tar.gz
+    0ae1fcd4987d141bfe4e8eedeb49f3444bea5d281d096426227a1f969053dba0  aixcoin-0.17.2-x86_64-linux-gnu-debug.tar.gz
+    0cf8d3eaa66113b21e1b7ff66f7afbb189ff5bc226cce4bacf6a1eada5e4a8b7  aixcoin-0.17.2-x86_64-linux-gnu.tar.gz
+    df085e04b9d03d6d1592146dc50ac0dfcda267519ba4b586d8707ebe6c7d80da  src/aixcoin-0.17.2.tar.gz
 - in_manifest: |-
-    22f2a2e0d9c449c30f14e69cc32f8b14ff308ddbc43fc503f0ddc5a9e1e90269  bitcoin-linux-0.17-desc.yml
-    git:2f4f2d382bd77ecd768f33b9d24099528bceaaec bitcoin
+    22f2a2e0d9c449c30f14e69cc32f8b14ff308ddbc43fc503f0ddc5a9e1e90269  aixcoin-linux-0.17-desc.yml
+    git:2f4f2d382bd77ecd768f33b9d24099528bceaaec aixcoin
 - base_manifests: !!omap
   - bionic-amd64: |
       d451eb00b2d0e2940e26028ea9f2fb1be4f5109010e997acfb2c46229ebd9ebe  adduser_3.116ubuntu1_all.deb
@@ -782,6 +782,6 @@
     4490d2e825d8a3359d86b10563008aa3459263116de8c8b5153f7841c4ffa70a  x86_64-linux-gnu/zlib/zlib-1.2.11-e880fae0269.tar.gz
     279ffb0dfd9c11d62e8bdf9bea4578f0c4de4237ebb78f42944933721039da47  x86_64-linux-gnu/zlib/zlib-1.2.11-e880fae0269.tar.gz.hash
 - release: 0.17.2rc2-linux
-- name: bitcoin-linux-0.17
+- name: aixcoin-linux-0.17
 - type: build
 - optionals: 

@@ -1,16 +1,16 @@
 --- !omap
 - out_manifest: |
-    5d7572a8f3a6c82b6aef4dd5c7b33b73c2cb8111391a40bc4b098d221c99d005  bitcoin-0.13.0-win-unsigned.tar.gz
-    d856798ffea654b6998c537508f5bf8febf14f31f15fdcea7e6b0df21faa38ec  bitcoin-0.13.0-win32-debug.zip
-    bbcb2eb821d4ab00ce3d24c63b38fcb2e8d5e8a1ee719b3ee5b001711c7731a3  bitcoin-0.13.0-win32-setup-unsigned.exe
-    33cfd77d9066c7fd0ca933993ec7e5126d2732656a2ad72d683e73a639344cd3  bitcoin-0.13.0-win32.zip
-    8fb80aed056968d60bdc4862e4372f39b1a95cd72eba1757719d582c94805fb2  bitcoin-0.13.0-win64-debug.zip
-    c7bcd820f7d9004b4b82e672aeeadeacba00f8268e0215feda8230ec80fa13d5  bitcoin-0.13.0-win64-setup-unsigned.exe
-    9cdccd0c98b53038c82381012fe4b9b0be4969b51492eb0f9de5618d2838890c  bitcoin-0.13.0-win64.zip
-    1aa245023296de120b2f6e011c13d49589415f15b4008493f4735881d3109368  src/bitcoin-0.13.0.tar.gz
+    5d7572a8f3a6c82b6aef4dd5c7b33b73c2cb8111391a40bc4b098d221c99d005  aixcoin-0.13.0-win-unsigned.tar.gz
+    d856798ffea654b6998c537508f5bf8febf14f31f15fdcea7e6b0df21faa38ec  aixcoin-0.13.0-win32-debug.zip
+    bbcb2eb821d4ab00ce3d24c63b38fcb2e8d5e8a1ee719b3ee5b001711c7731a3  aixcoin-0.13.0-win32-setup-unsigned.exe
+    33cfd77d9066c7fd0ca933993ec7e5126d2732656a2ad72d683e73a639344cd3  aixcoin-0.13.0-win32.zip
+    8fb80aed056968d60bdc4862e4372f39b1a95cd72eba1757719d582c94805fb2  aixcoin-0.13.0-win64-debug.zip
+    c7bcd820f7d9004b4b82e672aeeadeacba00f8268e0215feda8230ec80fa13d5  aixcoin-0.13.0-win64-setup-unsigned.exe
+    9cdccd0c98b53038c82381012fe4b9b0be4969b51492eb0f9de5618d2838890c  aixcoin-0.13.0-win64.zip
+    1aa245023296de120b2f6e011c13d49589415f15b4008493f4735881d3109368  src/aixcoin-0.13.0.tar.gz
 - in_manifest: |-
-    2829ed92020a52095dc63c2ca52e9ec7888c15696b946ee9a645ceef87425b3e  bitcoin-win-0.13-desc.yml
-    git:d6bb231a9fa902b5d7a719f8cbcba34c6a7a57cf bitcoin
+    2829ed92020a52095dc63c2ca52e9ec7888c15696b946ee9a645ceef87425b3e  aixcoin-win-0.13-desc.yml
+    git:d6bb231a9fa902b5d7a719f8cbcba34c6a7a57cf aixcoin
 - base_manifests: !omap
   - trusty-amd64: |
       1461ce364a68db36190a6981ad9e3889c8a5286e809e45c6e34a720905de46a4  adduser_3.113+nmu3ubuntu3_all.deb
@@ -465,6 +465,6 @@
     5978d1621f93df17c1d34354b89bf787a442be48d31baf5d6ec35bd9ff7b3453  x86_64-w64-mingw32/qt/qt-5.6.1-efe2cef6e23.tar.gz
     15fc0aa033578f488657f52c70cf6540a4e0e0157818d42565bbe444e1d294ec  x86_64-w64-mingw32/qt/qt-5.6.1-efe2cef6e23.tar.gz.hash
 - release: 0.13.0rc1-win-unsigned
-- name: bitcoin-win-0.13
+- name: aixcoin-win-0.13
 - type: build
 - optionals: 

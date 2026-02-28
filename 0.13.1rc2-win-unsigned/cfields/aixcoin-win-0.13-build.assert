@@ -1,24 +1,24 @@
 --- !omap
-- out_manifest: ! 'e95f00d66fb114ec322189d457c8596b571c0e9c8286d1056d4360d2d2294355  bitcoin-0.13.1-win-unsigned.tar.gz
+- out_manifest: ! 'e95f00d66fb114ec322189d457c8596b571c0e9c8286d1056d4360d2d2294355  aixcoin-0.13.1-win-unsigned.tar.gz
 
-    c26f4bcc5d36a446a3a18ba1159104f6e8e552ea34db022305cb8faa204c265b  bitcoin-0.13.1-win32-debug.zip
+    c26f4bcc5d36a446a3a18ba1159104f6e8e552ea34db022305cb8faa204c265b  aixcoin-0.13.1-win32-debug.zip
 
-    53798876999bb7840eee2286835f020b43fef57fbcc9777195bb90ac48a7340c  bitcoin-0.13.1-win32-setup-unsigned.exe
+    53798876999bb7840eee2286835f020b43fef57fbcc9777195bb90ac48a7340c  aixcoin-0.13.1-win32-setup-unsigned.exe
 
-    cc12fd638ebc353aea18ffbb1bf1b75a0053f5cfe5ed6e2668828a67e7a113c1  bitcoin-0.13.1-win32.zip
+    cc12fd638ebc353aea18ffbb1bf1b75a0053f5cfe5ed6e2668828a67e7a113c1  aixcoin-0.13.1-win32.zip
 
-    86bc44b3f5d45afc384ab3f67049f2929bd0f2611dd1048227fa3f3afa53f576  bitcoin-0.13.1-win64-debug.zip
+    86bc44b3f5d45afc384ab3f67049f2929bd0f2611dd1048227fa3f3afa53f576  aixcoin-0.13.1-win64-debug.zip
 
-    065872042da978a0d7c6534e0da2646718db8718c8b0ffb8c3c587128085fb24  bitcoin-0.13.1-win64-setup-unsigned.exe
+    065872042da978a0d7c6534e0da2646718db8718c8b0ffb8c3c587128085fb24  aixcoin-0.13.1-win64-setup-unsigned.exe
 
-    5e7ccb8564f9b015b862962b335079e88eab27ed7b6e72e23bfa1f16b487c37f  bitcoin-0.13.1-win64.zip
+    5e7ccb8564f9b015b862962b335079e88eab27ed7b6e72e23bfa1f16b487c37f  aixcoin-0.13.1-win64.zip
 
-    5e8b50585434872d92192de1f8ececf4b6e1098d5914ca9bf4e350a41b1de926  src/bitcoin-0.13.1.tar.gz
+    5e8b50585434872d92192de1f8ececf4b6e1098d5914ca9bf4e350a41b1de926  src/aixcoin-0.13.1.tar.gz
 
 '
-- in_manifest: ! '2829ed92020a52095dc63c2ca52e9ec7888c15696b946ee9a645ceef87425b3e  bitcoin-win-0.13-desc.yml
+- in_manifest: ! '2829ed92020a52095dc63c2ca52e9ec7888c15696b946ee9a645ceef87425b3e  aixcoin-win-0.13-desc.yml
 
-    git:6e8936032fb865c0448bec0e0f168e041a586285 bitcoin'
+    git:6e8936032fb865c0448bec0e0f168e041a586285 aixcoin'
 - base_manifests: !omap
   - trusty-amd64: ! 'Reading package lists...
 
@@ -1288,6 +1288,6 @@
 
 '
 - release: 0.13.1rc2-win-unsigned
-- name: bitcoin-win-0.13
+- name: aixcoin-win-0.13
 - type: build
 - optionals: 

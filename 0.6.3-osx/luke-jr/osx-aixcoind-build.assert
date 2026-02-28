@@ -1,9 +1,9 @@
 --- !omap 
 - out_manifest: |
-    277f7beb388f173ab3571b7488248c42ca5ece9445f20f378e1ed695f3ef8b83  bin-osx-bitcoind-v0.6.3.bz2
+    277f7beb388f173ab3571b7488248c42ca5ece9445f20f378e1ed695f3ef8b83  bin-osx-aixcoind-v0.6.3.bz2
 
 - in_manifest: |
-    8aa2b822f8aa8a5f98357c4bf10883148e1288739fe14dc750bfa490b12f6d64  osx-bitcoind-desc.yml
+    8aa2b822f8aa8a5f98357c4bf10883148e1288739fe14dc750bfa490b12f6d64  osx-aixcoind-desc.yml
     95f3ff5ffa6942bbaeda85226b5aca4152d1395563b874c390d1489f1e917f75  bin-osx-cross-4.0.1-r2.tbz2
     7100b022e6883edbfff896b44d96c9e6b3fa5b02b9e4ed2f15e6d5838d7b2f01  bin-osx-bdb-4.8.30-r3.tbz2
     c41ec7ef50391d3fc23f1bb796f9e01a8632d648ef006b114b5fa3cea90f26bf  bin-osx-boost-1.47.0.tbz2
@@ -257,5 +257,5 @@
         76448677f00312141cbacf170af5353967f92a8a5ab154bd6e30dfa92931fafc  zlib1g_1%3a1.2.3.3.dfsg-15ubuntu1_i386.deb
 
 - release: 0.6.3-osx
-- name: osx-bitcoind
+- name: osx-aixcoind
 - type: build

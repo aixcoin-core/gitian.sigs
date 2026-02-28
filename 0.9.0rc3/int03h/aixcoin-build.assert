@@ -1,38 +1,38 @@
 --- !omap
-- out_manifest: ! 'df28a958f93954ea8f2206fa7fd2cd5a00f38dfd0668c4e88650d77ee257a781  bin/32/bitcoin-cli
+- out_manifest: ! 'df28a958f93954ea8f2206fa7fd2cd5a00f38dfd0668c4e88650d77ee257a781  bin/32/aixcoin-cli
 
-    a92c9576d72b82766d2a3f819a61271f511e5ad14e35784d0fbbb0e5fdb4d818  bin/32/bitcoin-qt
+    a92c9576d72b82766d2a3f819a61271f511e5ad14e35784d0fbbb0e5fdb4d818  bin/32/aixcoin-qt
 
-    2fbe58d19940c3a840b28121358b4a4f8f2627f52a0b3fee60aaae9af94ff597  bin/32/bitcoind
+    2fbe58d19940c3a840b28121358b4a4f8f2627f52a0b3fee60aaae9af94ff597  bin/32/aixcoind
 
-    b693892718e751c9b19f81aa49a73b2aac24003a5876a852c67c1247449261a8  bin/32/test_bitcoin
+    b693892718e751c9b19f81aa49a73b2aac24003a5876a852c67c1247449261a8  bin/32/test_aixcoin
 
-    664cfe67fa278369ed91e6ffff642c4813c23c26da459b66cc50270823aaa0be  bin/32/test_bitcoin-qt
+    664cfe67fa278369ed91e6ffff642c4813c23c26da459b66cc50270823aaa0be  bin/32/test_aixcoin-qt
 
-    e262394ed1d9c24e4ef07adbb3ff855015470dfd517fae10154b8a591931f079  bin/64/bitcoin-cli
+    e262394ed1d9c24e4ef07adbb3ff855015470dfd517fae10154b8a591931f079  bin/64/aixcoin-cli
 
-    466bc3f0d36d5fe9b01a6fc796ee90b0dc1c013c4ffae6b0d96a5bc8b901891a  bin/64/bitcoin-qt
+    466bc3f0d36d5fe9b01a6fc796ee90b0dc1c013c4ffae6b0d96a5bc8b901891a  bin/64/aixcoin-qt
 
-    707be77171498b48a5f01f7de8233bbb783d35a1fa829d8a9ea4ac61ab9ff972  bin/64/bitcoind
+    707be77171498b48a5f01f7de8233bbb783d35a1fa829d8a9ea4ac61ab9ff972  bin/64/aixcoind
 
-    9e2d2f1a34c97722941caec6dff634e94cbc3ed8e316425e3db55d9f0a02debe  bin/64/test_bitcoin
+    9e2d2f1a34c97722941caec6dff634e94cbc3ed8e316425e3db55d9f0a02debe  bin/64/test_aixcoin
 
-    1f8733cc3d6192dca5ffe6cccc312f5e3d0625da06f23c900c106716544fd6dc  bin/64/test_bitcoin-qt
+    1f8733cc3d6192dca5ffe6cccc312f5e3d0625da06f23c900c106716544fd6dc  bin/64/test_aixcoin-qt
 
-    c91114705a3f9f88d4e31a8dda7a1997bc67eaee2df90c1b33f7771c00e9abee  src/bitcoin-0.9.0.tar.gz
+    c91114705a3f9f88d4e31a8dda7a1997bc67eaee2df90c1b33f7771c00e9abee  src/aixcoin-0.9.0.tar.gz
 
 '
-- in_manifest: ! 'd23424bd29ea22fec009f63c2ebcf645b5c66a8b7efbadee582b2e262e22a044  bitcoin-desc.yml
+- in_manifest: ! 'd23424bd29ea22fec009f63c2ebcf645b5c66a8b7efbadee582b2e262e22a044  aixcoin-desc.yml
 
-    05fe8e9aef00d295f24a94deef7d3a918af5aeef371ba57fdd5a6acd8c51f6cb  bitcoin-deps-linux32-gitian-r3.zip
+    05fe8e9aef00d295f24a94deef7d3a918af5aeef371ba57fdd5a6acd8c51f6cb  aixcoin-deps-linux32-gitian-r3.zip
 
-    4227aa9d9fedbb4265b8d10a4f78b7435f34b00a54eb4d662bf78f59c6e70c27  bitcoin-deps-linux64-gitian-r3.zip
+    4227aa9d9fedbb4265b8d10a4f78b7435f34b00a54eb4d662bf78f59c6e70c27  aixcoin-deps-linux64-gitian-r3.zip
 
     f29b7d9577417333fb56e023c2977f5726a7c297f320b175a4108cf7cd4c2d29  boost-linux32-1.55.0-gitian-r1.zip
 
     88232451c4104f7eb16e469ac6474fd1231bd485687253f7b2bdf46c0781d535  boost-linux64-1.55.0-gitian-r1.zip
 
-    git:af57c1b1a72de32eca205f2a8e1c357ec6779fb3 bitcoin'
+    git:af57c1b1a72de32eca205f2a8e1c357ec6779fb3 aixcoin'
 - base_manifests: !omap
   - precise-i386: ! '5ebcb985ca600ff8028dd67afb6cdd03ebb375fa8d6b46a8f337ef37b68828d5  accountsservice_0.6.15-2ubuntu9.7_i386.deb
 
@@ -2101,6 +2101,6 @@
 
 '
 - release: 0.9.0rc3
-- name: bitcoin
+- name: aixcoin
 - type: build
 - optionals: 

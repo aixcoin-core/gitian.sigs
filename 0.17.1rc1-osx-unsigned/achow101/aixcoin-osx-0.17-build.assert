@@ -1,13 +1,13 @@
 --- !!omap
 - out_manifest: |
-    4c0dd3f5c1fea154123e4163bf9951aa7b8492688e0632e95a134cdf4a9eb160  bitcoin-0.17.1-osx-unsigned.dmg
-    9f8268b0ac072def901c13e3c9c507eef8283a92ebb2321a7e429e8ba9475f57  bitcoin-0.17.1-osx-unsigned.tar.gz
-    1b0d9eadaef79db7726e22bb30f6d3e0f7f964105c79b899b4c44d0838764dcf  bitcoin-0.17.1-osx64.tar.gz
-    3e564fb5cf832f39e930e19c83ea53e09cfe6f93a663294ed83a32e194bda42a  src/bitcoin-0.17.1.tar.gz
+    4c0dd3f5c1fea154123e4163bf9951aa7b8492688e0632e95a134cdf4a9eb160  aixcoin-0.17.1-osx-unsigned.dmg
+    9f8268b0ac072def901c13e3c9c507eef8283a92ebb2321a7e429e8ba9475f57  aixcoin-0.17.1-osx-unsigned.tar.gz
+    1b0d9eadaef79db7726e22bb30f6d3e0f7f964105c79b899b4c44d0838764dcf  aixcoin-0.17.1-osx64.tar.gz
+    3e564fb5cf832f39e930e19c83ea53e09cfe6f93a663294ed83a32e194bda42a  src/aixcoin-0.17.1.tar.gz
 - in_manifest: |-
-    98a232d379502cee65ab4a6e8e6eef82f0515468f640cecf0b6ecb1e7d8929fc  bitcoin-osx-0.17-desc.yml
+    98a232d379502cee65ab4a6e8e6eef82f0515468f640cecf0b6ecb1e7d8929fc  aixcoin-osx-0.17-desc.yml
     9f950cd715b58b0ae002ec47bf2fe7ed76857d4f7b0b3520ae2820082b3e41ce  MacOSX10.11.sdk.tar.gz
-    git:ef70f9b52b851c7997a9f1a0834714e3eebc1fd8 bitcoin
+    git:ef70f9b52b851c7997a9f1a0834714e3eebc1fd8 aixcoin
 - base_manifests: !!omap
   - bionic-amd64: |
       d451eb00b2d0e2940e26028ea9f2fb1be4f5109010e997acfb2c46229ebd9ebe  adduser_3.116ubuntu1_all.deb
@@ -524,6 +524,6 @@
     acac82d55b11579872fc229aff875e684f06d8d570798416f5d44eeb50f25079  x86_64-apple-darwin14/zlib/zlib-1.2.11-850aef89b1a.tar.gz
     950dc6d63788ae9f452cfc7ea5fc9242837976f97d0b5aedc31cbf402818ef93  x86_64-apple-darwin14/zlib/zlib-1.2.11-850aef89b1a.tar.gz.hash
 - release: 0.17.1rc1-osx-unsigned
-- name: bitcoin-osx-0.17
+- name: aixcoin-osx-0.17
 - type: build
 - optionals: 

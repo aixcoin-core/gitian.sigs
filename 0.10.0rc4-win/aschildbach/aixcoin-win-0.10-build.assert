@@ -1,13 +1,13 @@
 --- !omap
 - out_manifest: |
-    ca74ab4a6c1319cade6a75355baae99fb26bddf29db19342d90b0c27a887e192  bitcoin-0.10.0-win32-setup.exe
-    bde4777964d025fa39e90d6a5dbc94b41622fdb39728db165b4fce7917c36322  bitcoin-0.10.0-win32.zip
-    7fe64f6b57a5c5fbd3b33fac4da2f115e869011ed68352b26f33a31f2b45c46f  bitcoin-0.10.0-win64-setup.exe
-    94beb1b77422eaa3d87faead7a05142efd670379af911dbdb316fc8542098c2b  bitcoin-0.10.0-win64.zip
-    012dd39ba181e5d66ea4ff97d9da4446001cb72f94ae49272d41207670987242  src/bitcoin-0.10.0.tar.gz
+    ca74ab4a6c1319cade6a75355baae99fb26bddf29db19342d90b0c27a887e192  aixcoin-0.10.0-win32-setup.exe
+    bde4777964d025fa39e90d6a5dbc94b41622fdb39728db165b4fce7917c36322  aixcoin-0.10.0-win32.zip
+    7fe64f6b57a5c5fbd3b33fac4da2f115e869011ed68352b26f33a31f2b45c46f  aixcoin-0.10.0-win64-setup.exe
+    94beb1b77422eaa3d87faead7a05142efd670379af911dbdb316fc8542098c2b  aixcoin-0.10.0-win64.zip
+    012dd39ba181e5d66ea4ff97d9da4446001cb72f94ae49272d41207670987242  src/aixcoin-0.10.0.tar.gz
 - in_manifest: |-
-    573934a5cd03331e2251d0a82467d5449d5d151812f5bdb9f6755c6c05b032de  bitcoin-win-0.10-desc.yml
-    git:e43f25c5b1c7b38d28cd0fba09098a9d56d9ac6b bitcoin
+    573934a5cd03331e2251d0a82467d5449d5d151812f5bdb9f6755c6c05b032de  aixcoin-win-0.10-desc.yml
+    git:e43f25c5b1c7b38d28cd0fba09098a9d56d9ac6b aixcoin
 - base_manifests: !omap
   - precise-amd64: |
       edf7640c085c66dbe776314f4d3f91512a27ca0be45f233a9b5666f9c7f8cce0  adduser_3.113ubuntu2_all.deb
@@ -366,6 +366,6 @@
     682b8baf9a27e1b65848b414bde8d53b7694ce3dad1ede5bbf61fb57377b0f3c  x86_64-w64-mingw32/qrencode/qrencode-3.4.3-0b4951f0630.tar.gz
     9bdc45fc1235cd0d2ca0f8f941c71e6604c9c389d03ed36708d13c38635c20ce  x86_64-w64-mingw32/qt/qt-5.2.1-d2f6d690fc2.tar.gz
 - release: 0.10.0rc4-win
-- name: bitcoin-win-0.10
+- name: aixcoin-win-0.10
 - type: build
 - optionals: 

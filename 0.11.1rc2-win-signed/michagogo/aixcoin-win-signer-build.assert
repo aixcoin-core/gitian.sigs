@@ -1,16 +1,16 @@
 --- !omap
-- out_manifest: ! '3c78d3543865c27a163d2f7c13f7aa7a8aa5a7f9dd6f97cba1958dcb8f80f0c6  bitcoin-0.11.1-win32-setup.exe
+- out_manifest: ! '3c78d3543865c27a163d2f7c13f7aa7a8aa5a7f9dd6f97cba1958dcb8f80f0c6  aixcoin-0.11.1-win32-setup.exe
 
-    26518e18d7d2358d9959f193e4b2804f446ba007b6f56ca473af788f1012ae71  bitcoin-0.11.1-win64-setup.exe
+    26518e18d7d2358d9959f193e4b2804f446ba007b6f56ca473af788f1012ae71  aixcoin-0.11.1-win64-setup.exe
 
 '
-- in_manifest: ! '747ed5881073944a491a9e36fd5a0ed3b5ed252a949fa0b464f9bc11ce0007a0  bitcoin-win-signer-desc.yml
+- in_manifest: ! '747ed5881073944a491a9e36fd5a0ed3b5ed252a949fa0b464f9bc11ce0007a0  aixcoin-win-signer-desc.yml
 
     f9a8cdb38b9c309326764ebc937cba1523a3a751a7ab05df3ecc99d18ae466c9  osslsigncode-1.7.1.tar.gz
 
     a8c4e9cafba922f89de0df1f2152e7be286aba73f78505169bc351a7938dd911  osslsigncode-Backports-to-1.7.1.patch
 
-    c638312ab9f25aa2ca325435bbec36dbac328b4fde762d7a822b0b26a353f5de  bitcoin-win-unsigned.tar.gz
+    c638312ab9f25aa2ca325435bbec36dbac328b4fde762d7a822b0b26a353f5de  aixcoin-win-unsigned.tar.gz
 
     git:3aaac811f7777bef073650a0a8bfc02f519fd617 signature'
 - base_manifests: !omap
@@ -812,6 +812,6 @@
 - cache_common_manifest: ''
 - cache_package_manifest: ''
 - release: 0.11.1rc2-win-signed
-- name: bitcoin-win-signer
+- name: aixcoin-win-signer
 - type: build
 - optionals: 

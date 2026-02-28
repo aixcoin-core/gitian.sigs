@@ -1,14 +1,14 @@
 --- !omap
-- out_manifest: ! '822040e96ff9d9ffaa5d0b3290eaab2f7222cdbbd35014a0b9860f0f5e1b225d  bitcoin-0.12.0-linux32.tar.gz
+- out_manifest: ! '822040e96ff9d9ffaa5d0b3290eaab2f7222cdbbd35014a0b9860f0f5e1b225d  aixcoin-0.12.0-linux32.tar.gz
 
-    61259aa4858080727ae60378325914ed28d730cae210f1cfc356d9783b904951  bitcoin-0.12.0-linux64.tar.gz
+    61259aa4858080727ae60378325914ed28d730cae210f1cfc356d9783b904951  aixcoin-0.12.0-linux64.tar.gz
 
-    b1b5dc894a926629e7c7be8dcf01e3a736f8561513f1a0b09e5903d4733b4af2  src/bitcoin-0.12.0.tar.gz
+    b1b5dc894a926629e7c7be8dcf01e3a736f8561513f1a0b09e5903d4733b4af2  src/aixcoin-0.12.0.tar.gz
 
 '
-- in_manifest: ! '2c6df1fd62d807b3b0c72bbb3b5f46b36fabe1ef5a85554df34795eb35448372  bitcoin-linux-0.12-desc.yml
+- in_manifest: ! '2c6df1fd62d807b3b0c72bbb3b5f46b36fabe1ef5a85554df34795eb35448372  aixcoin-linux-0.12-desc.yml
 
-    git:b1f031d43520825c9288dfbfb410b0065e6732a6 bitcoin'
+    git:b1f031d43520825c9288dfbfb410b0065e6732a6 aixcoin'
 - base_manifests: !omap
   - trusty-amd64: ! '1461ce364a68db36190a6981ad9e3889c8a5286e809e45c6e34a720905de46a4  adduser_3.113+nmu3ubuntu3_all.deb
 
@@ -1220,6 +1220,6 @@
 
 '
 - release: 0.12.0rc3-linux
-- name: bitcoin-linux-0.12
+- name: aixcoin-linux-0.12
 - type: build
 - optionals: 

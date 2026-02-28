@@ -2,7 +2,7 @@
 - out_manifest: ! 'ed73c507ae13f95097e31179172e39dc34c0367fbec17daa1808c1a407e31283  Bitcoin-Qt.dmg
 
 '
-- in_manifest: ! '302fb8c5f295e639014c60ac4aabd59de0ccf6de9c53e382291c462815877226  bitcoin-desc.yml
+- in_manifest: ! '302fb8c5f295e639014c60ac4aabd59de0ccf6de9c53e382291c462815877226  aixcoin-desc.yml
 
     512bc0622c883e2e0f4cbc3fedfd8c2402d06c004ce6fb32303cc2a6f405b6df  osx-native-depends-r3.tar.gz
 
@@ -12,7 +12,7 @@
 
     9bcf988c1aa4c24458bd11da2e44017a284e60091b4a835b3c3e379965e039a5  MacOSX10.7.sdk.tar.gz
 
-    git:ea07ccbf3ba462068b9b0cd9daf8df1ba90cab2e bitcoin'
+    git:ea07ccbf3ba462068b9b0cd9daf8df1ba90cab2e aixcoin'
 - base_manifests: !omap
   - precise-i386: ! 'edf7640c085c66dbe776314f4d3f91512a27ca0be45f233a9b5666f9c7f8cce0  adduser_3.113ubuntu2_all.deb
 
@@ -760,6 +760,6 @@
 - cache_common_manifest: ''
 - cache_package_manifest: ''
 - release: 0.9.5rc1-osx
-- name: bitcoin
+- name: aixcoin
 - type: build
 - optionals: 

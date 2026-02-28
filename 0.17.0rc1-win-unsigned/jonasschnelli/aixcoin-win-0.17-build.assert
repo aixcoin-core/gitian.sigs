@@ -1,16 +1,16 @@
 --- !!omap
 - out_manifest: |
-    c60606a8809050379130345ea17ab64fe7931f484557c38476183930e25867cd  bitcoin-0.17.0-win-unsigned.tar.gz
-    ab49075654c8f55deedb832dcc1a76aaccb88146690521e02e0bd6e0b6398ea7  bitcoin-0.17.0-win32-debug.zip
-    6dea03a081e88f35a3ff1ad7aa9c2023d438dc03f05e18167cdbfa185f54f2e2  bitcoin-0.17.0-win32-setup-unsigned.exe
-    6bbcd9cc2609789b007737393be32e4850142ecee39746906fec3e69da03ea7e  bitcoin-0.17.0-win32.zip
-    4457ff18eb853172c107ee3dfe1f8b91911db06fbd16ff941dd3bfc1c771d8d7  bitcoin-0.17.0-win64-debug.zip
-    352e169c9941f77ef4d2777b47c098e1f2aa3983749a24d3f16aafadbbce219b  bitcoin-0.17.0-win64-setup-unsigned.exe
-    05586b10ee9a94a5522fcbe3a8f305f6844569b39ebc67ae4db5c1f2adaf2f1c  bitcoin-0.17.0-win64.zip
-    9ddaaf6f24bf41a449dcf7653bc47ff834c6748f11031371f9ab8e3997cd960e  src/bitcoin-0.17.0.tar.gz
+    c60606a8809050379130345ea17ab64fe7931f484557c38476183930e25867cd  aixcoin-0.17.0-win-unsigned.tar.gz
+    ab49075654c8f55deedb832dcc1a76aaccb88146690521e02e0bd6e0b6398ea7  aixcoin-0.17.0-win32-debug.zip
+    6dea03a081e88f35a3ff1ad7aa9c2023d438dc03f05e18167cdbfa185f54f2e2  aixcoin-0.17.0-win32-setup-unsigned.exe
+    6bbcd9cc2609789b007737393be32e4850142ecee39746906fec3e69da03ea7e  aixcoin-0.17.0-win32.zip
+    4457ff18eb853172c107ee3dfe1f8b91911db06fbd16ff941dd3bfc1c771d8d7  aixcoin-0.17.0-win64-debug.zip
+    352e169c9941f77ef4d2777b47c098e1f2aa3983749a24d3f16aafadbbce219b  aixcoin-0.17.0-win64-setup-unsigned.exe
+    05586b10ee9a94a5522fcbe3a8f305f6844569b39ebc67ae4db5c1f2adaf2f1c  aixcoin-0.17.0-win64.zip
+    9ddaaf6f24bf41a449dcf7653bc47ff834c6748f11031371f9ab8e3997cd960e  src/aixcoin-0.17.0.tar.gz
 - in_manifest: |-
-    eb61d6074a920d13c8abacc2559bc6fce4c42ec9b14584b3e08d091384be2e3b  bitcoin-win-0.17-desc.yml
-    git:3d827bee699abffe61d99099d9f7e813b4acc2a5 bitcoin
+    eb61d6074a920d13c8abacc2559bc6fce4c42ec9b14584b3e08d091384be2e3b  aixcoin-win-0.17-desc.yml
+    git:3d827bee699abffe61d99099d9f7e813b4acc2a5 aixcoin
 - base_manifests: !!omap
   - bionic-amd64: |
       d451eb00b2d0e2940e26028ea9f2fb1be4f5109010e997acfb2c46229ebd9ebe  adduser_3.116ubuntu1_all.deb
@@ -736,6 +736,6 @@
     67d66f732fe2ead81fe662998d572853c38cecd21c3f1bc5f0486d88e65f27af  x86_64-w64-mingw32/zlib/zlib-1.2.11-d59552a85ce.tar.gz
     1675a65f2bae157cd64355dd19a8d5d92d61dbb7250ab8ad5ab67d932735a311  x86_64-w64-mingw32/zlib/zlib-1.2.11-d59552a85ce.tar.gz.hash
 - release: 0.17.0rc1-win-unsigned
-- name: bitcoin-win-0.17
+- name: aixcoin-win-0.17
 - type: build
 - optionals: 
